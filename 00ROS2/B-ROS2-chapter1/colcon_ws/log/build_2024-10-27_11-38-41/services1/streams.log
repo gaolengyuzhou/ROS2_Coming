@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1': CMAKE_PREFIX_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/opt/ros/humble LD_LIBRARY_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --build /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1 -- -j20 -l20
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target ser[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target cli[0m
+[0.108s] [ 50%] Built target cli
+[0.108s] [ 75%] [32mBuilding CXX object CMakeFiles/ser.dir/src/ser.cpp.o[0m
+[5.013s] [100%] [32m[1mLinking CXX executable ser[0m
+[5.245s] [100%] Built target ser
+[5.263s] Invoked command in '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1' returned '0': CMAKE_PREFIX_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/opt/ros/humble LD_LIBRARY_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --build /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1 -- -j20 -l20
+[5.325s] Invoking command in '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1': CMAKE_PREFIX_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/opt/ros/humble LD_LIBRARY_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --install /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1
+[5.338s] -- Install configuration: ""
+[5.338s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/ament_index/resource_index/package_run_dependencies/services1
+[5.338s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/ament_index/resource_index/parent_prefix_path/services1
+[5.338s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/ament_prefix_path.sh
+[5.338s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/ament_prefix_path.dsv
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/path.sh
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/path.dsv
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.bash
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.sh
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.zsh
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.dsv
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/package.dsv
+[5.339s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/ament_index/resource_index/packages/services1
+[5.340s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/cmake/services1Config.cmake
+[5.340s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/cmake/services1Config-version.cmake
+[5.340s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/package.xml
+[5.340s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/ser
+[5.341s] -- Set runtime path of "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/ser" to ""
+[5.341s] -- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/cli
+[5.342s] -- Set runtime path of "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/cli" to ""
+[5.346s] Invoked command in '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1' returned '0': CMAKE_PREFIX_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/opt/ros/humble LD_LIBRARY_PATH=/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --install /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1

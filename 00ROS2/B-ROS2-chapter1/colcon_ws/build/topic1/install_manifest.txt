@@ -1,0 +1,17 @@
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/ament_index/resource_index/package_run_dependencies/topic1
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/ament_index/resource_index/parent_prefix_path/topic1
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/environment/ament_prefix_path.sh
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/environment/ament_prefix_path.dsv
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/environment/path.sh
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/environment/path.dsv
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/local_setup.bash
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/local_setup.sh
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/local_setup.zsh
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/local_setup.dsv
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/package.dsv
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/ament_index/resource_index/packages/topic1
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/cmake/topic1Config.cmake
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/cmake/topic1Config-version.cmake
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/share/topic1/package.xml
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/lib/topic1/pub
+/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1/lib/topic1/sub

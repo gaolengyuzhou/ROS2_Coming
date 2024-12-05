@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (-) JobUnselected: {'identifier': 'interfaces1'}
+[0.000242] (-) JobUnselected: {'identifier': 'topic1'}
+[0.000272] (services1) JobQueued: {'identifier': 'services1', 'dependencies': OrderedDict([('interfaces1', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1')])}
+[0.000305] (services1) JobStarted: {'identifier': 'services1'}
+[0.013720] (services1) JobProgress: {'identifier': 'services1', 'progress': 'cmake'}
+[0.015459] (services1) JobProgress: {'identifier': 'services1', 'progress': 'build'}
+[0.015634] (services1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1', '--', '-j20', '-l20'], 'cwd': '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'gy'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64'), ('HOME', '/home/gy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04b8f5c548cbef5538260d7b671d9ee1'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/gy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda-11.7/bin:/home/gy/.fishros/bin/:/usr/local/cuda-11.7/bin:/home/gy/.fishros/bin/'), ('SESSION_MANAGER', 'local/gy-Y:@/tmp/.ICE-unix/2334,unix/gy-Y:/tmp/.ICE-unix/2334'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c50082b4_75a2_4bbe_a28f_239db0e295f1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f13d9eab4c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04b8f5c548cbef5538260d7b671d9ee1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/opt/ros/humble')]), 'shell': False}
+[0.080538] (services1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ser\x1b[0m\n'}
+[0.080874] (services1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cli\x1b[0m\n'}
+[0.098693] (-) TimerEvent: {}
+[0.108196] (services1) StdoutLine: {'line': b'[ 50%] Built target cli\n'}
+[0.108641] (services1) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ser.dir/src/ser.cpp.o\x1b[0m\n'}
+[0.198911] (-) TimerEvent: {}
+[0.299420] (-) TimerEvent: {}
+[0.399918] (-) TimerEvent: {}
+[0.500417] (-) TimerEvent: {}
+[0.600907] (-) TimerEvent: {}
+[0.701356] (-) TimerEvent: {}
+[0.801748] (-) TimerEvent: {}
+[0.902159] (-) TimerEvent: {}
+[1.002634] (-) TimerEvent: {}
+[1.103087] (-) TimerEvent: {}
+[1.203574] (-) TimerEvent: {}
+[1.304015] (-) TimerEvent: {}
+[1.404467] (-) TimerEvent: {}
+[1.504935] (-) TimerEvent: {}
+[1.605371] (-) TimerEvent: {}
+[1.705741] (-) TimerEvent: {}
+[1.806202] (-) TimerEvent: {}
+[1.906643] (-) TimerEvent: {}
+[2.007081] (-) TimerEvent: {}
+[2.107520] (-) TimerEvent: {}
+[2.207956] (-) TimerEvent: {}
+[2.308420] (-) TimerEvent: {}
+[2.408930] (-) TimerEvent: {}
+[2.509361] (-) TimerEvent: {}
+[2.609709] (-) TimerEvent: {}
+[2.710157] (-) TimerEvent: {}
+[2.810605] (-) TimerEvent: {}
+[2.911044] (-) TimerEvent: {}
+[3.011510] (-) TimerEvent: {}
+[3.111977] (-) TimerEvent: {}
+[3.212438] (-) TimerEvent: {}
+[3.312909] (-) TimerEvent: {}
+[3.413348] (-) TimerEvent: {}
+[3.513715] (-) TimerEvent: {}
+[3.614118] (-) TimerEvent: {}
+[3.714466] (-) TimerEvent: {}
+[3.814812] (-) TimerEvent: {}
+[3.915237] (-) TimerEvent: {}
+[4.015790] (-) TimerEvent: {}
+[4.116349] (-) TimerEvent: {}
+[4.216837] (-) TimerEvent: {}
+[4.317309] (-) TimerEvent: {}
+[4.418019] (-) TimerEvent: {}
+[4.518453] (-) TimerEvent: {}
+[4.618858] (-) TimerEvent: {}
+[4.719263] (-) TimerEvent: {}
+[4.819732] (-) TimerEvent: {}
+[4.920156] (-) TimerEvent: {}
+[5.013587] (services1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ser\x1b[0m\n'}
+[5.020271] (-) TimerEvent: {}
+[5.120682] (-) TimerEvent: {}
+[5.221078] (-) TimerEvent: {}
+[5.245182] (services1) StdoutLine: {'line': b'[100%] Built target ser\n'}
+[5.262745] (services1) CommandEnded: {'returncode': 0}
+[5.308881] (services1) JobProgress: {'identifier': 'services1', 'progress': 'install'}
+[5.321201] (-) TimerEvent: {}
+[5.323958] (services1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1'], 'cwd': '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'gy'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/usr/local/cuda-11.7/lib64'), ('HOME', '/home/gy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04b8f5c548cbef5538260d7b671d9ee1'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/gy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda-11.7/bin:/home/gy/.fishros/bin/:/usr/local/cuda-11.7/bin:/home/gy/.fishros/bin/'), ('SESSION_MANAGER', 'local/gy-Y:@/tmp/.ICE-unix/2334,unix/gy-Y:/tmp/.ICE-unix/2334'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c50082b4_75a2_4bbe_a28f_239db0e295f1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f13d9eab4c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/services1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04b8f5c548cbef5538260d7b671d9ee1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/interfaces1:/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1:/opt/ros/humble')]), 'shell': False}
+[5.337686] (services1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.338099] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/ament_index/resource_index/package_run_dependencies/services1\n'}
+[5.338377] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/ament_index/resource_index/parent_prefix_path/services1\n'}
+[5.338490] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/ament_prefix_path.sh\n'}
+[5.338673] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/ament_prefix_path.dsv\n'}
+[5.338788] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/path.sh\n'}
+[5.338874] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/environment/path.dsv\n'}
+[5.339120] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.bash\n'}
+[5.339344] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.sh\n'}
+[5.339473] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.zsh\n'}
+[5.339564] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/local_setup.dsv\n'}
+[5.339647] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/package.dsv\n'}
+[5.339732] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/ament_index/resource_index/packages/services1\n'}
+[5.339867] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/cmake/services1Config.cmake\n'}
+[5.340016] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/cmake/services1Config-version.cmake\n'}
+[5.340099] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/share/services1/package.xml\n'}
+[5.340214] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/ser\n'}
+[5.341382] (services1) StdoutLine: {'line': b'-- Set runtime path of "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/ser" to ""\n'}
+[5.341558] (services1) StdoutLine: {'line': b'-- Installing: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/cli\n'}
+[5.342581] (services1) StdoutLine: {'line': b'-- Set runtime path of "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/services1/lib/services1/cli" to ""\n'}
+[5.345233] (services1) CommandEnded: {'returncode': 0}
+[5.413723] (services1) JobEnded: {'identifier': 'services1', 'rc': 0}
+[5.414907] (-) EventReactorShutdown: {}
