@@ -79,6 +79,7 @@ WARNING: Error loading config file: /home/gy/.docker/config.json: : invalid char
 /*加载镜像*/
 docker load -i micro-ros-agent.tar
 ```
+# 观察现象
 ```c
 ros2 node info /hello_microros
 ros2 topic echo count_topic
