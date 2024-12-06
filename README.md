@@ -33,4 +33,4 @@ ros2 topic echo count_topic
 ros2 node list
 ```
 
-![这是一个演示 GIF]("./MicroROS_USB.gif")
+![这是一个演示 GIF](https://github.com/gaolengyuzhou/ROS2_Coming/blob/microROS_Docker/MicroROS_USB.gif)
