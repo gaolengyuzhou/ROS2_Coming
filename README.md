@@ -33,5 +33,4 @@ ros2 topic echo count_topic
 ros2 node list
 ```
 
-<video src="./MicroROS_USB.mp4" autoplay="true" controls="controls" >
-</video>
+![这是一个演示 GIF]("./MicroROS_USB.gif")
