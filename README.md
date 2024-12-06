@@ -32,5 +32,6 @@ ros2 node info /hello_microros
 ros2 topic echo count_topic
 ros2 node list
 ```
+
 <video src="./MicroROS_USB.mp4" autoplay="true" controls="controls" >
 </video>
