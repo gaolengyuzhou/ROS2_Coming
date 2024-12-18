@@ -1,0 +1,10 @@
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/uninstall.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/read_pcd_uninstall.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/read_pcd.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/test.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/edit_cache.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/rebuild_cache.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/list_install_components.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/install.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/install/local.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd/CMakeFiles/install/strip.dir

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gy/changshu/B-ROS2-chapter1/colcon_ws/src/topic1
+CMAKE_SOURCE_DIR = /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/src/topic1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1
+CMAKE_BINARY_DIR = /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gy/changshu/B-ROS2-chapter1/colcon_ws/src/topic1 /home/gy/changshu/B-ROS2-chapter1/colcon_ws/src/topic1 /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1 /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1 /home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/src/topic1 /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/src/topic1 /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1 /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1 /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

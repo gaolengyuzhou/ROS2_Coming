@@ -1,8 +1,8 @@
-# Install script for directory: /home/gy/changshu/B-ROS2-chapter1/colcon_ws/src/topic1
+# Install script for directory: /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/src/topic1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/install/topic1")
+  set(CMAKE_INSTALL_PREFIX "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/install/topic1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/topic1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/topic1")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/topic1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/topic1")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1/environment" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1/environment" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,42 +63,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1/environment" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1/environment" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_index/share/ament_index/resource_index/packages/topic1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_index/share/ament_index/resource_index/packages/topic1")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1/cmake" TYPE FILE FILES
-    "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_core/topic1Config.cmake"
-    "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_core/topic1Config-version.cmake"
+    "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_core/topic1Config.cmake"
+    "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/ament_cmake_core/topic1Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/src/topic1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/topic1" TYPE FILE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/src/topic1/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -108,7 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic1/pub"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic1" TYPE EXECUTABLE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic1" TYPE EXECUTABLE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/pub")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic1/pub" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic1/pub")
     file(RPATH_CHANGE
@@ -128,7 +128,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic1/sub"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic1" TYPE EXECUTABLE FILES "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/sub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic1" TYPE EXECUTABLE FILES "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/sub")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic1/sub" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic1/sub")
     file(RPATH_CHANGE
@@ -149,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gy/changshu/B-ROS2-chapter1/colcon_ws/build/topic1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/build/topic1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

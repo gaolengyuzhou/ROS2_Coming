@@ -1,5 +1,5 @@
 CMakeFiles/sub.dir/src/sub.cpp.o: \
- /home/gy/changshu/B-ROS2-chapter1/colcon_ws/src/topic1/src/sub.cpp \
+ /home/gy/ROS2_Coming/00ROS2/B-ROS2-chapter1/colcon_ws/src/topic1/src/sub.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

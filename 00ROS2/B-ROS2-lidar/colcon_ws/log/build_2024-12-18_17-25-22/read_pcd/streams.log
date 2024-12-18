@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd -- -j12 -l12
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/read_pcd.dir/src/read_pcd.cpp.o[0m
+[0.416s] [01m[K/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/src/read_pcd/src/read_pcd.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud2.hpp: 没有那个文件或目录
+[0.416s]     2 | #include [01;31m[K"sensor_msgs/msg/point_cloud2.hpp"[m[K
+[0.416s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.416s] compilation terminated.
+[0.419s] gmake[2]: *** [CMakeFiles/read_pcd.dir/build.make:76：CMakeFiles/read_pcd.dir/src/read_pcd.cpp.o] 错误 1
+[0.419s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/read_pcd.dir/all] 错误 2
+[0.419s] gmake: *** [Makefile:146：all] 错误 2
+[0.423s] Invoked command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd -- -j12 -l12
