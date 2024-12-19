@@ -1,2 +1,0 @@
-Invoking command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd -- -j12 -l12
-Invoked command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd -- -j12 -l12

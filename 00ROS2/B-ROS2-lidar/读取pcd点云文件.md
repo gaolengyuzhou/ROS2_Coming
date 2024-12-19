@@ -1,11 +1,11 @@
 ## 创建文件夹
 
-> B-ROS2_chapter1
+> B-ROS2-lidar
 
 ## 创建并进入工作空间
 
 ```
-cd B-ROS2_chapter1
+cd B-ROS2-lidar
 mkdir -p colcon_ws/src
 cd colcon_ws/src/ # 进入工作空间
 ```
@@ -20,46 +20,25 @@ ros2 pkg create read_pcd --build-type ament_cmake --dependencies pcl_conversions
 > https://blog.csdn.net/qq_27865227/article/details/125002311
 * read_pcd.cpp
 ```c
-#include<ros/ros.h>
-#include<pcl/point_cloud.h>
-#include<pcl_conversions/pcl_conversions.h>
-#include<sensor_msgs/PointCloud2.h>
-#include<pcl/io/pcd_io.h>
- 
-int main(int argc,char argv){
-    ros::init(argc,argv,"pcd_pub");
-    ros::NodeHandle nh;
-    ros::Publisher pcl_pub=nh.advertise<sensor_msgs::PointCloud2> ("pcl_output",1);
-    pcl::PointCloud<pcl::PointXYZ> cloud;
-    sensor_msgs::PointCloud2 output;
-    std::string file_path;
-    nh.param<std::string>("file_path", file_path, "/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/milk.pcd");
-    pcl::io::loadPCDFile(file_path,cloud);//通过launch文件修改路径即可
- 
-    pcl::toROSMsg(cloud,output);
-    output.header.frame_id="map";
- 
-    ros::Rate loop_rate(1);
-    while (ros::ok())
-    {
-        pcl_pub.publish(output);
-        ros::spinOnce();
-        loop_rate.sleep();
-    }
-    return 0;
-}
 
 ```
 * 修改CMake文件
 
 ```c
-add_executable(read_pcd src/read_pcd.cpp)
-ament_target_dependencies(read_pcd rclcpp std_msgs pcl_conversions pcl_ros)
+# 生成可执行文件
+add_executable (read_pcd src/read_pcd.cpp)
 
+# 配置可执行文件的依赖项
+ament_target_dependencies(read_pcd 
+  rclcpp 
+  pcl_ros 
+  pcl_conversions 
+  sensor_msgs)  
+
+# 将可执行文件写入路径
 install(TARGETS
   read_pcd
-  DESTINATION lib/${PROJECT_NAME}
-)
+  DESTINATION lib/${PROJECT_NAME})  
 ```
 
 ## 编译
@@ -115,3 +94,34 @@ source install/setup.bash
 ```
 
 ## 运行
+```c
+ros2 run rviz2 rviz2  # 打开rviz
+
+ros2 run read_pcd read_pcd /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/milk.pcd # 运行节点
+
+gy@gy-u22:~$ ros2 topic list
+/clicked_point
+/goal_pose
+/initialpose
+/parameter_events
+/point_cloud_topic
+/rosout
+/tf
+/tf_static
+gy@gy-u22:~$ ros2 topic info /point_cloud_topic 
+Type: sensor_msgs/msg/PointCloud2
+Publisher count: 1
+Subscription count: 1
+gy@gy-u22:~$ ros2 topic echo /point_cloud_topic
+```
+gazebo独立于ROS2，就像插件一样，需要安装。
+
+1.安装
+
+sudo apt install gazebo
+
+sudo apt install ros-humble-gazebo-*
+
+2.运行测试demo
+
+gazebo /opt/ros/humble/share/gazebo_plugins/worlds/gazebo_ros_diff_drive_demo.world

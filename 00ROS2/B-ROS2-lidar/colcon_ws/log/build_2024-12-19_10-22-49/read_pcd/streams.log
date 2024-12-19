@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target read_pcd[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/read_pcd.dir/src/read_pcd.cpp.o[0m
+[7.911s] [100%] [32m[1mLinking CXX executable read_pcd[0m
+[8.552s] [100%] Built target read_pcd
+[8.563s] Invoked command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd -- -j12 -l12
+[8.601s] Invoking command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd
+[8.609s] -- Install configuration: ""
+[8.609s] -- Installing: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/lib/read_pcd/read_pcd
+[8.611s] -- Set runtime path of "/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/lib/read_pcd/read_pcd" to ""
+[8.611s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/package_run_dependencies/read_pcd
+[8.611s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/parent_prefix_path/read_pcd
+[8.611s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/ament_prefix_path.sh
+[8.611s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/ament_prefix_path.dsv
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/path.sh
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/path.dsv
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.bash
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.sh
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.zsh
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.dsv
+[8.612s] -- Installing: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/package.dsv
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/packages/read_pcd
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/cmake/read_pcdConfig.cmake
+[8.612s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/cmake/read_pcdConfig-version.cmake
+[8.613s] -- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/package.xml
+[8.614s] Invoked command in '/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/read_pcd

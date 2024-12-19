@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target read_pcd[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/read_pcd.dir/src/read_pcd.cpp.o[0m
+[100%] [32m[1mLinking CXX executable read_pcd[0m
+[100%] Built target read_pcd
+-- Install configuration: ""
+-- Installing: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/lib/read_pcd/read_pcd
+-- Set runtime path of "/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/lib/read_pcd/read_pcd" to ""
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/package_run_dependencies/read_pcd
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/parent_prefix_path/read_pcd
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/path.sh
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/path.dsv
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.bash
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.sh
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.zsh
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.dsv
+-- Installing: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/package.dsv
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/packages/read_pcd
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/cmake/read_pcdConfig.cmake
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/cmake/read_pcdConfig-version.cmake
+-- Up-to-date: /home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/package.xml

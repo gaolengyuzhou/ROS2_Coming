@@ -1,0 +1,16 @@
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/lib/read_pcd/read_pcd
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/package_run_dependencies/read_pcd
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/parent_prefix_path/read_pcd
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/ament_prefix_path.sh
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/ament_prefix_path.dsv
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/path.sh
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/environment/path.dsv
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.bash
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.sh
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.zsh
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/local_setup.dsv
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/package.dsv
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/ament_index/resource_index/packages/read_pcd
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/cmake/read_pcdConfig.cmake
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/cmake/read_pcdConfig-version.cmake
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/install/read_pcd/share/read_pcd/package.xml

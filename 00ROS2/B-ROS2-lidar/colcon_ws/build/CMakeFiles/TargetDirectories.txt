@@ -1,0 +1,5 @@
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/CMakeFiles/uninstall.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/CMakeFiles/read_pcd_uninstall.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/CMakeFiles/test.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/CMakeFiles/edit_cache.dir
+/home/gy/ROS2_Coming/00ROS2/B-ROS2-lidar/colcon_ws/build/CMakeFiles/rebuild_cache.dir

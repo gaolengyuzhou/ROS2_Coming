@@ -24,17 +24,19 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-link_directories(${PCL_LIBRARY_DIRS})
-add_definitions(${PCL_DEFINITIONS})
+# 生成可执行文件
+add_executable (read_pcd src/read_pcd.cpp)
 
-add_executable(read_pcd src/read_pcd.cpp)
-ament_target_dependencies(read_pcd rclcpp std_msgs)
+# 配置可执行文件的依赖项
+ament_target_dependencies(read_pcd 
+  rclcpp 
+  pcl_ros 
+  pcl_conversions 
+  sensor_msgs)  
 
-target_link_libraries(read_pcd ${PCL_LIBRARIES})
-
+# 将可执行文件写入路径
 install(TARGETS
   read_pcd
-  DESTINATION lib/${PROJECT_NAME}
-)
+  DESTINATION lib/${PROJECT_NAME})  
 
 ament_package()

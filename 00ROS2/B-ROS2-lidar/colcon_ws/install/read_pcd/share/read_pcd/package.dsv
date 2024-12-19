@@ -1,3 +1,6 @@
+source;share/read_pcd/hook/cmake_prefix_path.ps1
+source;share/read_pcd/hook/cmake_prefix_path.dsv
+source;share/read_pcd/hook/cmake_prefix_path.sh
 source;share/read_pcd/local_setup.bash
 source;share/read_pcd/local_setup.dsv
 source;share/read_pcd/local_setup.ps1
