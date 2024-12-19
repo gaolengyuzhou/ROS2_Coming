@@ -1,0 +1,21 @@
+[2.502s] Invoking command in '/home/gy/ROS2_Coming/01gazebo/colcon_ws/src/fishbot_description': PYTHONPATH=/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build install --record /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[3.097s] running egg_info
+[3.100s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[3.101s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[3.101s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[3.102s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[3.102s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[3.111s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[3.112s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[3.113s] running build
+[3.113s] running build_py
+[3.114s] running install
+[3.115s] running install_lib
+[3.120s] running install_data
+[3.122s] copying launch/diaplay_gazebo.launch.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[3.122s] running install_egg_info
+[3.129s] removing '/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[3.130s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[3.134s] running install_scripts
+[3.218s] writing list of installed files to '/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/install.log'
+[3.463s] Invoked command in '/home/gy/ROS2_Coming/01gazebo/colcon_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build install --record /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/install.log --single-version-externally-managed install_data

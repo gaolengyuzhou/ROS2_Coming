@@ -1,0 +1,35 @@
+[0.785s] Invoking command in '/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/gy/ROS2_Coming/01gazebo/colcon_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_navigation2
+[1.009s] -- The C compiler identification is GNU 11.4.0
+[1.200s] -- The CXX compiler identification is GNU 11.4.0
+[1.220s] -- Detecting C compiler ABI info
+[1.425s] -- Detecting C compiler ABI info - done
+[1.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.453s] -- Detecting C compile features
+[1.455s] -- Detecting C compile features - done
+[1.469s] -- Detecting CXX compiler ABI info
+[1.886s] -- Detecting CXX compiler ABI info - done
+[1.908s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.909s] -- Detecting CXX compile features
+[1.909s] -- Detecting CXX compile features - done
+[1.925s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.640s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.640s]   By not providing "Findnav2_bringup.cmake" in CMAKE_MODULE_PATH this project
+[2.640s]   has asked CMake to find a package configuration file provided by
+[2.640s]   "nav2_bringup", but CMake did not find one.
+[2.640s] 
+[2.641s]   Could not find a package configuration file provided by "nav2_bringup" with
+[2.641s]   any of the following names:
+[2.641s] 
+[2.641s]     nav2_bringupConfig.cmake
+[2.641s]     nav2_bringup-config.cmake
+[2.641s] 
+[2.641s]   Add the installation prefix of "nav2_bringup" to CMAKE_PREFIX_PATH or set
+[2.641s]   "nav2_bringup_DIR" to a directory containing one of the above files.  If
+[2.641s]   "nav2_bringup" provides a separate development package or SDK, be sure it
+[2.641s]   has been installed.
+[2.641s] 
+[2.641s] [0m
+[2.642s] -- Configuring incomplete, errors occurred!
+[2.642s] See also "/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_navigation2/CMakeFiles/CMakeOutput.log".
+[2.665s] Invoked command in '/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_navigation2' returned '1': CMAKE_PREFIX_PATH=/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/gy/ROS2_Coming/01gazebo/colcon_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_navigation2
