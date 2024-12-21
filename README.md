@@ -14,4 +14,5 @@ ros2 bag record /scan
 ```
 3. 使用bag-pcd包
 > https://github.com/xmfcx/rosbag2_to_pcd
-<img src="[https://example.com/pet.jpg](https://github.com/gaolengyuzhou/ROS2_Coming/blob/ROSbag_lidar/02bag/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E6%B5%81%E7%A8%8B.png)" alt="bag数据解析">
+
+![bag数据解析](https://github.com/gaolengyuzhou/ROS2_Coming/blob/ROSbag_lidar/02bag/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E6%B5%81%E7%A8%8B.png)
