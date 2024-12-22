@@ -73,3 +73,39 @@ sudo apt install ros-humble-nav2-map-server
 
 ros2 run nav2_map_server map_saver_cli -t map -f fishbot_map
 ```
+
+# 🚩🚩🚩导航
+```
+ros2 pkg create fishbot_navigation2 --dependencies nav2_bringup
+
+cd src/fishbot_navigation2
+mkdir launch config maps param rviz
+```
+## Nav2下载安装
+```
+sudo apt install ros-humble-nav2-*
+sudo apt install ros-humble-navigation2
+
+运行：ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+```
+
+## 将上一节的地图文件复制到map文件夹下
+
+## 在src/fishbot_navigation2/param/目录下创建fishbot_nav2.yaml
+
+## 在02carto/colcon_ws/src/fishbot_navigation2/launch新建navigation2.launch.py
+
+## package添加
+```
+<exec_depend>nav2_bringup</exec_depend>
+```
+
+### 运行
+```
+colcon build --packages-up-to fishbot_navigation2
+source install/setup.bash
+
+ros2 launch fishbot_description diaplay_Hr.launch.py
+ros2 launch fishbot_navigation2 navigation2.launch.py
+
+```

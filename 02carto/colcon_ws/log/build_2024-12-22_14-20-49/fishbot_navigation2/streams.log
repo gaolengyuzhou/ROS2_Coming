@@ -1,0 +1,35 @@
+[0.010s] Invoking command in '/home/gy/ROS2_Coming/02carto/colcon_ws/build/fishbot_navigation2': /usr/bin/cmake /home/gy/ROS2_Coming/02carto/colcon_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/gy/ROS2_Coming/02carto/colcon_ws/install/fishbot_navigation2
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.224s] -- The CXX compiler identification is GNU 11.4.0
+[0.237s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.483s] -- Detecting CXX compiler ABI info - done
+[0.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.491s] -- Detecting CXX compile features
+[0.491s] -- Detecting CXX compile features - done
+[0.495s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.646s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.766s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.766s]   By not providing "Findnav2_bringup.cmake" in CMAKE_MODULE_PATH this project
+[0.766s]   has asked CMake to find a package configuration file provided by
+[0.766s]   "nav2_bringup", but CMake did not find one.
+[0.766s] 
+[0.766s]   Could not find a package configuration file provided by "nav2_bringup" with
+[0.766s]   any of the following names:
+[0.766s] 
+[0.766s]     nav2_bringupConfig.cmake
+[0.766s]     nav2_bringup-config.cmake
+[0.766s] 
+[0.767s]   Add the installation prefix of "nav2_bringup" to CMAKE_PREFIX_PATH or set
+[0.767s]   "nav2_bringup_DIR" to a directory containing one of the above files.  If
+[0.767s]   "nav2_bringup" provides a separate development package or SDK, be sure it
+[0.767s]   has been installed.
+[0.767s] 
+[0.767s] [0m
+[0.767s] -- Configuring incomplete, errors occurred!
+[0.767s] See also "/home/gy/ROS2_Coming/02carto/colcon_ws/build/fishbot_navigation2/CMakeFiles/CMakeOutput.log".
+[0.771s] Invoked command in '/home/gy/ROS2_Coming/02carto/colcon_ws/build/fishbot_navigation2' returned '1': /usr/bin/cmake /home/gy/ROS2_Coming/02carto/colcon_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/gy/ROS2_Coming/02carto/colcon_ws/install/fishbot_navigation2
