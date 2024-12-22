@@ -1,4 +1,0 @@
-/**:
-  ros__parameters:
-    path_bag: /home/gy/ROS2_Coming/02bag/ros2_db3dir/ros2_db3dir.db3
-    topic_cloud: /livox
