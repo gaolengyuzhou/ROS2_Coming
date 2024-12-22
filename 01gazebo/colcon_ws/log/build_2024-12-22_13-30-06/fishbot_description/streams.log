@@ -1,0 +1,45 @@
+[0.865s] Invoking command in '/home/gy/ROS2_Coming/01gazebo/colcon_ws/src/fishbot_description': PYTHONPATH=/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build install --record /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[1.097s] running egg_info
+[1.098s] creating ../../build/fishbot_description/fishbot_description.egg-info
+[1.098s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[1.098s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[1.098s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[1.098s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[1.098s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.100s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build
+[1.109s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build/lib
+[1.109s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build/lib/fishbot_description
+[1.109s] copying fishbot_description/__init__.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build/lib/fishbot_description
+[1.109s] running install
+[1.110s] running install_lib
+[1.110s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[1.110s] copying /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[1.111s] byte-compiling /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[1.111s] running install_data
+[1.111s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/ament_index
+[1.111s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/ament_index/resource_index
+[1.111s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[1.111s] copying resource/fishbot_description -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[1.111s] copying package.xml -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description
+[1.112s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/world
+[1.112s] copying world/fishbot.world -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/world
+[1.112s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[1.112s] copying launch/diaplay_ultrasonic_sensor.launch.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[1.112s] copying launch/display_rviz2.launch.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[1.112s] copying launch/diaplay_gazebo.launch.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[1.112s] copying launch/diaplay_Hr.launch.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[1.112s] copying launch/diaplay.launch.py -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/launch
+[1.113s] creating /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.113s] copying urdf/fishbot_base.urdf -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.113s] copying urdf/fishbot_gazebo.urdf -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.113s] copying urdf/ultrasonic_sensor.urdf -> /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.113s] running install_egg_info
+[1.116s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[1.117s] running install_scripts
+[1.135s] writing list of installed files to '/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/install.log'
+[1.157s] Invoked command in '/home/gy/ROS2_Coming/01gazebo/colcon_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gy/ROS2_Coming/01gazebo/colcon_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/build install --record /home/gy/ROS2_Coming/01gazebo/colcon_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
