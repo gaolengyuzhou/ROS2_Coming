@@ -62,6 +62,7 @@ Summary: 0 packages finished [0.84s]
 ```
 ## 编译platform
 3. 编译前需要删除.pio/libdeps/featheresp32/micro_ros_platformio/libmicroros文件夹
+
 ![自定义消息格式](./更改为自定义消息格式.gif)
 
 # 自定义消息类型
