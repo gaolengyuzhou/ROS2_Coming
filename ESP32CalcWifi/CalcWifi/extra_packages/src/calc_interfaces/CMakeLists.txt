@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(interfaces1)
+project(calc_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -13,7 +13,7 @@ find_package(std_msgs REQUIRED)
 
 # 添加下面的内容
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/Sermsg.srv"
+  "srv/CalcControl.srv"
   DEPENDENCIES std_msgs
 )
 

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from calc_interfaces/srv/CalcControl.srv
+// generated code does not contain a copyright notice
+
+
+module calc_interfaces {
+  module srv {
+    struct CalcControl_Request {
+      int32 a;
+
+      int32 b;
+
+      int32 c;
+    };
+    struct CalcControl_Response {
+      int32 sum;
+
+      int32 prod;
+    };
+  };
+};
