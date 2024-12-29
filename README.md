@@ -64,7 +64,7 @@ Summary: 0 packages finished [0.84s]
 3. 编译前需要删除.pio/libdeps/featheresp32/micro_ros_platformio/libmicroros文件夹
 
 ![自定义消息格式](./更改为自定义消息格式.gif)
-![自定义消息格式](https://github.com/gaolengyuzhou/ROS2_Coming/blob/microROS_ESP32CalcWifi/%E6%9B%B4%E6%94%B9%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B6%88%E6%81%AF%E6%A0%BC%E5%BC%8F.gif)
+<img src="https://github.com/gaolengyuzhou/ROS2_Coming/blob/microROS_ESP32CalcWifi/%E6%9B%B4%E6%94%B9%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B6%88%E6%81%AF%E6%A0%BC%E5%BC%8F.gif" alt="自定义消息格式">
 
 # 自定义消息类型
 ## 🕐消息类型
