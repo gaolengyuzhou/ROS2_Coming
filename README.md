@@ -21,7 +21,7 @@ ros2 service list
 ```
 ![两数相加服务](./两数相加服务.png)
 
-3. 使用rqt
+3. 使用rqt📞call一下
 ```
 ros2 service call /add_ints example_interfaces/srv/AddTwoInts "{a: 1, b: 2}"
 ```
@@ -80,7 +80,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ![编译成功](./编译成功.png)
 ## 删掉/microROS_ESP32CalcWifi/cala-server/.pio/libdeps/featheresp32/micro_ros_platformio/libmicroros
 ![重新编译](./重新编译.png)
-## 报错
+## 报错(编译不成功时，可能需要安装一下rosidl-default-generators)
 
 ```
 sudo apt-get install ros-humbel-rosidl-default-generators
@@ -97,7 +97,7 @@ export CMAKE_PREFIX_PATH = $CMAKE_PREFIX_PATH:/opt/ros/humble/share/rosidl_defau
 ```
 ros2 service call /calc_ints calc_interfaces/srv/CalcTree "{a: 1, b: 2, c: 2}"
 ```
-## 报错
+## 报错(类型不对时，需要source一下)
 
 ```
 The passed service type is invalid

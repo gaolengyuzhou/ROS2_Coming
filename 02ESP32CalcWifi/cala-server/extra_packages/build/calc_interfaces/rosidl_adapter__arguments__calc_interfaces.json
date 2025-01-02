@@ -1,0 +1,6 @@
+{
+  "package_name": "calc_interfaces",
+  "non_idl_tuples": [
+    "/home/gy/ROS2_Coming/02ESP32CalcWifi/cala-server/extra_packages/calc_interfaces:srv/CalcTree.srv"
+  ]
+}
