@@ -1,6 +1,0 @@
-{
-  "package_name": "calc_interfaces",
-  "non_idl_tuples": [
-    "/home/gy/ROS2_Coming/ESP32CalcWifi/CalcWifi/extra_packages/src/calc_interfaces:srv/CalcControl.srv"
-  ]
-}
