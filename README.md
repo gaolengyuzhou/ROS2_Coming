@@ -76,10 +76,21 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 <member_of_group>rosidl_interface_packages</member_of_group>
 ```
 ## colcon build
+```
+$ ros2 interface show calc_interfaces/srv/CalcTree 
+int32 a
+int32 b
+int32 c
+---
+int32 sum
+int32 prod
+```
 ![编译自定义接口](./编译自定义服务接口.png)
 ![编译成功](./编译成功.png)
+
 ## 删掉/microROS_ESP32CalcWifi/cala-server/.pio/libdeps/featheresp32/micro_ros_platformio/libmicroros
 ![重新编译](./重新编译.png)
+
 ## 报错(编译不成功时，可能需要安装一下rosidl-default-generators)
 
 ```
