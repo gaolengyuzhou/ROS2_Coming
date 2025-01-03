@@ -9,7 +9,7 @@ lib_deps =
     https://gitee.com/ohhuo/micro_ros_platformio.git
 ```
 
-## rcl
+## rcl （ROS Client Library）ROS 2 客户端库
 
 提供了**ROS 2**用于创建和管理节点、发布和订阅消息、调用服务的功能
 
@@ -19,15 +19,22 @@ lib_deps =
 
 其中rclc/executor部分主要用于管理和执行回调函数。在**ROS 2**系统中，当有消息到达订阅者或者服务请求到达时，会触发相应的回调函数。
 
-## 节点1
+## 创建节点
+
+1. 简单直接的应用场景（选择 rcl_node_init）
+
+`rcl_node_t`是 `ROS2` 的 rcl库中定义的用于表示节点的数据结构
+
+>rcl_ret_t----> 表示函数返回值类型
+
+>rcl_init ----> 用于初始化
 
 ```c
 rcl_node_t node;
 rcl_ret_t ret = rcl_init(0, NULL, &context);
 ret = rcl_node_init(&node, "node_name", "", &context);
 ```
-
-## 节点2
+2. 复杂且需要高级功能的应用场景（选择 rclc_node_init_default）
 
 ```c
 rclc_support_t support;
@@ -36,7 +43,7 @@ rcl_node_t node;
 
 allocator = rcl_get_default_allocator();
 rclc_support_init(&support, 0, NULL, &allocator);
-rclc_node_init_default(&node, "hello_microros", "", &support);
+rclc_node_init_default(&node, "node_name", "", &support);
 ```
 
 * $\color{red}{allocator}$主要用于内存分配,`allocator`首先通过 `rcl_get_default_allocator()`获取默认的内存分配器。
@@ -44,6 +51,9 @@ rclc_node_init_default(&node, "hello_microros", "", &support);
 
 ## 创建执行器
 ```c
+rclc_executor_t executor;
+
+
 rclc_executor_init(&executor, &support.context, 1, &allocator);
 ```
 >什么是执行器？
