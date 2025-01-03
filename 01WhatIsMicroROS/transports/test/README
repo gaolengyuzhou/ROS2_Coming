@@ -1,0 +1,29 @@
+node_hello_microros: 运行可以看到有一个hello_microros节点
+```
+sudo docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:$ROS_DISTRO serial --dev /dev/ttyUSB0 -v6 
+
+:~$ ros2 node list 
+/hello_microros
+```
+
+publish_hello_microros：运行可以看到有一个count话题
+```
+:~$ ros2 node list 
+/hello_microros
+:~$ ros2 topic list 
+/count
+/parameter_events
+/rosout
+:~$ ros2 topic echo /count 
+data: 13
+---
+data: 14
+---
+data: 15
+---
+```
+
+esp32订阅led_control，来改变LED状态
+```
+ros2 topic pub /led_control  std_msgs/msg/Int32 "{data: 0}" --once 
+```
