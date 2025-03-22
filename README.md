@@ -1,4 +1,4 @@
-# 先创建自己定义接口【❗❗❗注意：要使用cmake，python是不行的】
+# 先创建自定义接口【❗❗❗注意：要使用cmake，python是不行的】
 ## 编写AHRS.msg
 ```
 ros2 pkg create communication_interfaces_topic --build-type ament_cmake --dependencies rclpy std_msgs sensor_msgs builtin_interfaces rosidl_default_generators
