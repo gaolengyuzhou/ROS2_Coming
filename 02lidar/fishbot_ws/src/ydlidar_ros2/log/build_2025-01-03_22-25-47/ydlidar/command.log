@@ -1,2 +1,0 @@
-Invoking command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/src/ydlidar_ros2/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/02lidar/fishbot_ws/src/ydlidar_ros2/build/ydlidar -- -j20 -l20
-Invoked command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/src/ydlidar_ros2/build/ydlidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/02lidar/fishbot_ws/src/ydlidar_ros2/build/ydlidar -- -j20 -l20

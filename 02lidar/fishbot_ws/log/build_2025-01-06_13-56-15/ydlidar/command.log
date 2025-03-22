@@ -1,6 +1,0 @@
-Invoking command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gy/ROS2_Coming/02lidar/fishbot_ws/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/gy/ROS2_Coming/02lidar/fishbot_ws/install/ydlidar
-Invoked command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gy/ROS2_Coming/02lidar/fishbot_ws/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/gy/ROS2_Coming/02lidar/fishbot_ws/install/ydlidar
-Invoking command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar -- -j20 -l20
-Invoked command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar -- -j20 -l20
-Invoking command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar
-Invoked command in '/home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gy/ROS2_Coming/02lidar/fishbot_ws/build/ydlidar

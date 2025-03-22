@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/communication_interfaces_topic__cpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/ahrs.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/altitude.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/depth.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/ahrs__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/ahrs__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/ahrs__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/ahrs__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/altitude__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/altitude__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/altitude__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/altitude__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/depth__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/depth__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/depth__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/depth__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/dvl__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/dvl__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/dvl__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/dvl__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/pose__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/pose__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/pose__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/pose__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/thrust__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/thrust__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/thrust__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/detail/thrust__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/dvl.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/pose.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/msg/thrust.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/srv/detail/get_ahrs__builder.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/srv/detail/get_ahrs__struct.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/srv/detail/get_ahrs__traits.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/srv/detail/get_ahrs__type_support.hpp"
+  "rosidl_generator_cpp/communication_interfaces_topic/srv/get_ahrs.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/communication_interfaces_topic__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

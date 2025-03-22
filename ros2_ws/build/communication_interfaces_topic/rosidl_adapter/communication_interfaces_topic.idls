@@ -1,0 +1,7 @@
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:msg/AHRS.idl
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:msg/Altitude.idl
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:msg/Depth.idl
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:msg/DVL.idl
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:msg/Pose.idl
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:msg/Thrust.idl
+/home/u20/ros2_ws/build/communication_interfaces_topic/rosidl_adapter/communication_interfaces_topic:srv/GetAHRS.idl

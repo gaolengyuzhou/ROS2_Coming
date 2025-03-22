@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from communication_interfaces_topic/srv/GetAHRS.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module communication_interfaces_topic {
+  module srv {
+    @verbatim (language="comment", text=
+      " 请求部分，这里可以为空，因为不需要额外的请求数据")
+    struct GetAHRS_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      " 响应部分，包含 AHRS 数据")
+    struct GetAHRS_Response {
+      builtin_interfaces::msg::Time stamp;
+
+      sequence<float> ahrs_data;
+    };
+  };
+};

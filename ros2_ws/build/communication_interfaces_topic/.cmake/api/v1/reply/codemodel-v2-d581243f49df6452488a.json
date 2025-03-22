@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "communication_interfaces_topic__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/u20/ros2_ws/build/communication_interfaces_topic/communication_interfaces_topic__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "communication_interfaces_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic-5ade0e43e564cd6e864b.json",
+					"name" : "communication_interfaces_topic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__cpp-4efa6263d295825984f3.json",
+					"name" : "communication_interfaces_topic__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "communication_interfaces_topic__py::@6583ab7d7b6441180fc2",
+					"jsonFile" : "target-communication_interfaces_topic__py-20f941e33a281739211d.json",
+					"name" : "communication_interfaces_topic__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__python-cd5758a1a174ed40aa3f.json",
+					"name" : "communication_interfaces_topic__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_generator_c-2ffdfffef527229e32d1.json",
+					"name" : "communication_interfaces_topic__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_c-8683d72224208f541d6b.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_c__pyext-cd584ab002bd74ab6a81.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_cpp-d04c47019b27c3e3655e.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_fastrtps_c-7050e9e93c5f11298526.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_fastrtps_c__pyext-4c02c096617f799e574d.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_fastrtps_cpp-c44a366a051c429eff16.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_introspection_c-b7828be128772fc6a4d0.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_introspection_c__pyext-5764b299637f7020baec.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic__rosidl_typesupport_introspection_cpp-f499fa55fb9f2579f61f.json",
+					"name" : "communication_interfaces_topic__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_interfaces_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_interfaces_topic_uninstall-b6addebe0e69bae1589a.json",
+					"name" : "communication_interfaces_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5bd6c9f8a83df358778c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/u20/ros2_ws/build/communication_interfaces_topic",
+		"source" : "/home/u20/ros2_ws/src/communication_interfaces_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

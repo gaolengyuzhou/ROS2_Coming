@@ -1,0 +1,12 @@
+{
+  "package_name": "communication_interfaces_topic",
+  "non_idl_tuples": [
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:msg/AHRS.msg",
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:msg/Altitude.msg",
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:msg/Depth.msg",
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:msg/DVL.msg",
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:msg/Pose.msg",
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:msg/Thrust.msg",
+    "/home/u20/ros2_ws/src/communication_interfaces_topic:srv/GetAHRS.srv"
+  ]
+}

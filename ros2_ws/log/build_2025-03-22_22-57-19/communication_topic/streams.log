@@ -1,0 +1,30 @@
+[0.526s] Invoking command in '/home/u20/ros2_ws/src/communication_topic': PYTHONPATH=/home/u20/ros2_ws/build/communication_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages:/home/u20/ros2_ws/install/communication_interfaces_topic/lib/python3.8/site-packages:/home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/communication_topic build --build-base /home/u20/ros2_ws/build/communication_topic/build install --record /home/u20/ros2_ws/build/communication_topic/install.log --install-scripts $base/lib/communication_topic --single-version-externally-managed install_data
+[0.690s] running egg_info
+[0.691s] writing ../../build/communication_topic/communication_topic.egg-info/PKG-INFO
+[0.691s] writing dependency_links to ../../build/communication_topic/communication_topic.egg-info/dependency_links.txt
+[0.691s] writing entry points to ../../build/communication_topic/communication_topic.egg-info/entry_points.txt
+[0.691s] writing requirements to ../../build/communication_topic/communication_topic.egg-info/requires.txt
+[0.691s] writing top-level names to ../../build/communication_topic/communication_topic.egg-info/top_level.txt
+[0.717s] reading manifest file '../../build/communication_topic/communication_topic.egg-info/SOURCES.txt'
+[0.718s] writing manifest file '../../build/communication_topic/communication_topic.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.719s] copying communication_topic/AHRS_cli.py -> /home/u20/ros2_ws/build/communication_topic/build/lib/communication_topic
+[0.719s] copying communication_topic/AHRS_ser.py -> /home/u20/ros2_ws/build/communication_topic/build/lib/communication_topic
+[0.719s] running install
+[0.720s] running install_lib
+[0.720s] copying /home/u20/ros2_ws/build/communication_topic/build/lib/communication_topic/AHRS_cli.py -> /home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages/communication_topic
+[0.721s] copying /home/u20/ros2_ws/build/communication_topic/build/lib/communication_topic/AHRS_ser.py -> /home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages/communication_topic
+[0.721s] byte-compiling /home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages/communication_topic/AHRS_cli.py to AHRS_cli.cpython-38.pyc
+[0.722s] byte-compiling /home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages/communication_topic/AHRS_ser.py to AHRS_ser.cpython-38.pyc
+[0.723s] running install_data
+[0.723s] running install_egg_info
+[0.724s] removing '/home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages/communication_topic-0.0.0-py3.8.egg-info' (and everything under it)
+[0.724s] Copying ../../build/communication_topic/communication_topic.egg-info to /home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages/communication_topic-0.0.0-py3.8.egg-info
+[0.725s] running install_scripts
+[0.738s] Installing ahrs_data_client script to /home/u20/ros2_ws/install/communication_topic/lib/communication_topic
+[0.739s] Installing ahrs_data_server script to /home/u20/ros2_ws/install/communication_topic/lib/communication_topic
+[0.739s] Installing ahrs_publisher_node script to /home/u20/ros2_ws/install/communication_topic/lib/communication_topic
+[0.739s] Installing ahrs_subscriber_node script to /home/u20/ros2_ws/install/communication_topic/lib/communication_topic
+[0.739s] writing list of installed files to '/home/u20/ros2_ws/build/communication_topic/install.log'
+[0.756s] Invoked command in '/home/u20/ros2_ws/src/communication_topic' returned '0': PYTHONPATH=/home/u20/ros2_ws/build/communication_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages:/home/u20/ros2_ws/install/communication_interfaces_topic/lib/python3.8/site-packages:/home/u20/ros2_ws/install/communication_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/communication_topic build --build-base /home/u20/ros2_ws/build/communication_topic/build install --record /home/u20/ros2_ws/build/communication_topic/install.log --install-scripts $base/lib/communication_topic --single-version-externally-managed install_data
