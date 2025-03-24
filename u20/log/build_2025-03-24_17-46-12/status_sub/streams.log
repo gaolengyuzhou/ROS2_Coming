@@ -1,0 +1,26 @@
+[0.025s] Invoking command in '/home/u20/u20/ros2_topic_ws/build/status_sub': CMAKE_PREFIX_PATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy PYTHONPATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/u20/u20/ros2_topic_ws/build/status_sub -- -j12 -l12
+[0.114s] [35m[1mScanning dependencies of target status_ui[0m
+[0.159s] [ 50%] [32mBuilding CXX object CMakeFiles/status_ui.dir/src/status_ui.cpp.o[0m
+[6.058s] [100%] [32m[1mLinking CXX executable status_ui[0m
+[6.787s] [100%] Built target status_ui
+[6.804s] Invoked command in '/home/u20/u20/ros2_topic_ws/build/status_sub' returned '0': CMAKE_PREFIX_PATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy PYTHONPATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/u20/u20/ros2_topic_ws/build/status_sub -- -j12 -l12
+[6.808s] Invoking command in '/home/u20/u20/ros2_topic_ws/build/status_sub': CMAKE_PREFIX_PATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy PYTHONPATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/u20/u20/ros2_topic_ws/build/status_sub
+[6.818s] -- Install configuration: ""
+[6.818s] -- Installing: /home/u20/u20/ros2_topic_ws/install/status_sub/lib/status_sub/status_ui
+[6.821s] -- Set runtime path of "/home/u20/u20/ros2_topic_ws/install/status_sub/lib/status_sub/status_ui" to ""
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/package_run_dependencies/status_sub
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/parent_prefix_path/status_sub
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/ament_prefix_path.sh
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/ament_prefix_path.dsv
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/path.sh
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/path.dsv
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.bash
+[6.822s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.sh
+[6.823s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.zsh
+[6.823s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.dsv
+[6.823s] -- Installing: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/package.dsv
+[6.823s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/packages/status_sub
+[6.823s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/cmake/status_subConfig.cmake
+[6.823s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/cmake/status_subConfig-version.cmake
+[6.823s] -- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/package.xml
+[6.825s] Invoked command in '/home/u20/u20/ros2_topic_ws/build/status_sub' returned '0': CMAKE_PREFIX_PATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy PYTHONPATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/u20/u20/ros2_topic_ws/build/status_sub

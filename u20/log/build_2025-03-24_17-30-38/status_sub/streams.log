@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/u20/u20/ros2_topic_ws/build/status_sub': CMAKE_PREFIX_PATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy PYTHONPATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/u20/u20/ros2_topic_ws/build/status_sub -- -j12 -l12
+[0.074s] [35m[1mScanning dependencies of target status_ui[0m
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/status_ui.dir/src/status_ui.cpp.o[0m
+[0.348s] [01m[K/home/u20/u20/ros2_topic_ws/src/status_sub/src/status_ui.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kstatus_interfaces/msg/system_status.hpp: 没有那个文件或目录
+[0.348s]     5 | #include [01;31m[K<status_interfaces/msg/system_status.hpp>[m[K
+[0.348s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.348s] compilation terminated.
+[0.353s] make[2]: *** [CMakeFiles/status_ui.dir/build.make:63：CMakeFiles/status_ui.dir/src/status_ui.cpp.o] 错误 1
+[0.353s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/status_ui.dir/all] 错误 2
+[0.353s] make: *** [Makefile:141：all] 错误 2
+[0.359s] Invoked command in '/home/u20/u20/ros2_topic_ws/build/status_sub' returned '2': CMAKE_PREFIX_PATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy PYTHONPATH=/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/u20/u20/ros2_topic_ws/build/status_sub -- -j12 -l12

@@ -1,0 +1,10 @@
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/install/strip.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/install/local.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/install.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/list_install_components.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/rebuild_cache.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/edit_cache.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/test.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/status_ui.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/status_sub_uninstall.dir
+/home/u20/u20/ros2_topic_ws/build/status_sub/CMakeFiles/uninstall.dir

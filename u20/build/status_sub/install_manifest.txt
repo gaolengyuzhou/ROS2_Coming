@@ -1,0 +1,16 @@
+/home/u20/u20/ros2_topic_ws/install/status_sub/lib/status_sub/status_ui
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/package_run_dependencies/status_sub
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/parent_prefix_path/status_sub
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/ament_prefix_path.sh
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/ament_prefix_path.dsv
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/path.sh
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/path.dsv
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.bash
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.sh
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.zsh
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.dsv
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/package.dsv
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/packages/status_sub
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/cmake/status_subConfig.cmake
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/cmake/status_subConfig-version.cmake
+/home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/package.xml

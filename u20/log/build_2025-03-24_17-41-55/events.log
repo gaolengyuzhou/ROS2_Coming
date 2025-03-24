@@ -1,0 +1,269 @@
+[0.000000] (-) TimerEvent: {}
+[0.000706] (communication_interfaces) JobQueued: {'identifier': 'communication_interfaces', 'dependencies': OrderedDict()}
+[0.001100] (status_sub) JobQueued: {'identifier': 'status_sub', 'dependencies': OrderedDict([('communication_interfaces', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces')])}
+[0.001999] (communication_interfaces) JobStarted: {'identifier': 'communication_interfaces'}
+[0.020122] (communication_interfaces) JobProgress: {'identifier': 'communication_interfaces', 'progress': 'cmake'}
+[0.021543] (communication_interfaces) JobProgress: {'identifier': 'communication_interfaces', 'progress': 'build'}
+[0.022668] (communication_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/u20/u20/ros2_topic_ws/build/communication_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/u20/u20/ros2_topic_ws/build/communication_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/u20/u20/ros2_topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('BUNDLED_DEBUGPY_PATH', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fe967c5_f185_4d0f_91a4_04c84b371c46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-348290291761ae58.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ca619bfd0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/u20/ros2_topic_ws/build/communication_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy')]), 'shell': False}
+[0.099420] (-) TimerEvent: {}
+[0.201373] (-) TimerEvent: {}
+[0.254670] (communication_interfaces) StdoutLine: {'line': b'[  3%] Built target communication_interfaces__cpp\n'}
+[0.258779] (communication_interfaces) StdoutLine: {'line': b'[ 12%] Built target communication_interfaces__rosidl_generator_c\n'}
+[0.302002] (-) TimerEvent: {}
+[0.359942] (communication_interfaces) StdoutLine: {'line': b'[ 22%] Built target communication_interfaces__rosidl_typesupport_c\n'}
+[0.362786] (communication_interfaces) StdoutLine: {'line': b'[ 32%] Built target communication_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.370230] (communication_interfaces) StdoutLine: {'line': b'[ 41%] Built target communication_interfaces__rosidl_typesupport_cpp\n'}
+[0.385815] (communication_interfaces) StdoutLine: {'line': b'[ 51%] Built target communication_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.388346] (communication_interfaces) StdoutLine: {'line': b'[ 61%] Built target communication_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.402288] (-) TimerEvent: {}
+[0.468836] (communication_interfaces) StdoutLine: {'line': b'[ 70%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.502591] (-) TimerEvent: {}
+[0.523172] (communication_interfaces) StdoutLine: {'line': b'[ 70%] Built target communication_interfaces\n'}
+[0.571577] (communication_interfaces) StdoutLine: {'line': b'[ 74%] Built target communication_interfaces__py\n'}
+[0.602788] (-) TimerEvent: {}
+[0.618214] (communication_interfaces) StdoutLine: {'line': b'[ 80%] Built target communication_interfaces__python\n'}
+[0.675608] (communication_interfaces) StdoutLine: {'line': b'[100%] Built target communication_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.676360] (communication_interfaces) StdoutLine: {'line': b'[100%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.676520] (communication_interfaces) StdoutLine: {'line': b'[100%] Built target communication_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.702902] (-) TimerEvent: {}
+[0.710467] (communication_interfaces) CommandEnded: {'returncode': 0}
+[0.712323] (communication_interfaces) JobProgress: {'identifier': 'communication_interfaces', 'progress': 'install'}
+[0.746631] (communication_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/u20/u20/ros2_topic_ws/build/communication_interfaces'], 'cwd': '/home/u20/u20/ros2_topic_ws/build/communication_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/u20/u20/ros2_topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('BUNDLED_DEBUGPY_PATH', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fe967c5_f185_4d0f_91a4_04c84b371c46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-348290291761ae58.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ca619bfd0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/u20/ros2_topic_ws/build/communication_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy')]), 'shell': False}
+[0.773722] (communication_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.774362] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/ament_index/resource_index/rosidl_interfaces/communication_interfaces\n'}
+[0.774481] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces\n'}
+[0.774587] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg\n'}
+[0.774698] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail\n'}
+[0.774762] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__functions.h\n'}
+[0.774850] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__functions.c\n'}
+[0.774925] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__struct.h\n'}
+[0.774999] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__type_support.h\n'}
+[0.775058] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/system_status.h\n'}
+[0.775206] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.775315] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/library_path.sh\n'}
+[0.775372] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/library_path.dsv\n'}
+[0.775428] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_generator_c.so\n'}
+[0.775486] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces\n'}
+[0.775565] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg\n'}
+[0.775671] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.775772] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail\n'}
+[0.775921] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.776055] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.776244] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces\n'}
+[0.776465] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg\n'}
+[0.776537] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail\n'}
+[0.776609] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.776703] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/dds_fastrtps\n'}
+[0.776814] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.776909] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.777320] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces\n'}
+[0.777460] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg\n'}
+[0.777579] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.777642] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail\n'}
+[0.777708] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__type_support.c\n'}
+[0.777767] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[0.777873] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.778409] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_c.so\n'}
+[0.778754] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces\n'}
+[0.778819] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg\n'}
+[0.778941] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/system_status.hpp\n'}
+[0.779118] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail\n'}
+[0.779245] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__struct.hpp\n'}
+[0.779343] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__traits.hpp\n'}
+[0.779435] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__builder.hpp\n'}
+[0.779544] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[0.779637] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.779736] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces\n'}
+[0.779832] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg\n'}
+[0.779932] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail\n'}
+[0.780019] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.780138] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/include/communication_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[0.780285] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.780448] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.780838] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/pythonpath.sh\n'}
+[0.781014] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/pythonpath.dsv\n'}
+[0.781230] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/__init__.py\n'}
+[0.803102] (-) TimerEvent: {}
+[0.874279] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg\n'}
+[0.874916] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_system_status_s.c\n'}
+[0.875332] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/__init__.py\n'}
+[0.875514] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_system_status.py\n'}
+[0.875594] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.876127] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.876913] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.877713] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/libcommunication_interfaces__python.so\n'}
+[0.878256] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/msg/SystemStatus.idl\n'}
+[0.878647] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/msg/SystemStatus.msg\n'}
+[0.879079] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/ament_index/resource_index/package_run_dependencies/communication_interfaces\n'}
+[0.879195] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/ament_index/resource_index/parent_prefix_path/communication_interfaces\n'}
+[0.879395] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/ament_prefix_path.sh\n'}
+[0.879554] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.879614] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/path.sh\n'}
+[0.879691] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/environment/path.dsv\n'}
+[0.879797] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/local_setup.bash\n'}
+[0.879909] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/local_setup.sh\n'}
+[0.879982] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/local_setup.zsh\n'}
+[0.880053] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/local_setup.dsv\n'}
+[0.880119] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/package.dsv\n'}
+[0.880273] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/ament_index/resource_index/packages/communication_interfaces\n'}
+[0.880737] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.880999] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.881269] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.881511] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.881765] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.881992] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.882163] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.882445] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.882688] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.882898] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.883122] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.883619] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.884039] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.884470] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.884817] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.884961] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.885078] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.885217] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.885381] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfacesConfig.cmake\n'}
+[0.885606] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfacesConfig-version.cmake\n'}
+[0.885830] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/communication_interfaces/share/communication_interfaces/package.xml\n'}
+[0.894887] (communication_interfaces) CommandEnded: {'returncode': 0}
+[0.903326] (-) TimerEvent: {}
+[0.940564] (communication_interfaces) JobEnded: {'identifier': 'communication_interfaces', 'rc': 0}
+[0.942325] (status_sub) JobStarted: {'identifier': 'status_sub'}
+[0.963224] (status_sub) JobProgress: {'identifier': 'status_sub', 'progress': 'cmake'}
+[0.964529] (status_sub) JobProgress: {'identifier': 'status_sub', 'progress': 'build'}
+[0.965934] (status_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/u20/u20/ros2_topic_ws/build/status_sub', '--', '-j12', '-l12'], 'cwd': '/home/u20/u20/ros2_topic_ws/build/status_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/u20/u20/ros2_topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('BUNDLED_DEBUGPY_PATH', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fe967c5_f185_4d0f_91a4_04c84b371c46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-348290291761ae58.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ca619bfd0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/u20/ros2_topic_ws/build/status_sub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy')]), 'shell': False}
+[1.003880] (-) TimerEvent: {}
+[1.061473] (status_sub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target status_ui\x1b[0m\n'}
+[1.103854] (-) TimerEvent: {}
+[1.126627] (status_sub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/status_ui.dir/src/status_ui.cpp.o\x1b[0m\n'}
+[1.204243] (-) TimerEvent: {}
+[1.305535] (-) TimerEvent: {}
+[1.406111] (-) TimerEvent: {}
+[1.507135] (-) TimerEvent: {}
+[1.608801] (-) TimerEvent: {}
+[1.709978] (-) TimerEvent: {}
+[1.810676] (-) TimerEvent: {}
+[1.911367] (-) TimerEvent: {}
+[2.012389] (-) TimerEvent: {}
+[2.113659] (-) TimerEvent: {}
+[2.214570] (-) TimerEvent: {}
+[2.315320] (-) TimerEvent: {}
+[2.416057] (-) TimerEvent: {}
+[2.517391] (-) TimerEvent: {}
+[2.618349] (-) TimerEvent: {}
+[2.719148] (-) TimerEvent: {}
+[2.820447] (-) TimerEvent: {}
+[2.920996] (-) TimerEvent: {}
+[3.021810] (-) TimerEvent: {}
+[3.122214] (-) TimerEvent: {}
+[3.223656] (-) TimerEvent: {}
+[3.324845] (-) TimerEvent: {}
+[3.425647] (-) TimerEvent: {}
+[3.526335] (-) TimerEvent: {}
+[3.626771] (-) TimerEvent: {}
+[3.727046] (-) TimerEvent: {}
+[3.827731] (-) TimerEvent: {}
+[3.928899] (-) TimerEvent: {}
+[4.030008] (-) TimerEvent: {}
+[4.130878] (-) TimerEvent: {}
+[4.231674] (-) TimerEvent: {}
+[4.333082] (-) TimerEvent: {}
+[4.433993] (-) TimerEvent: {}
+[4.535125] (-) TimerEvent: {}
+[4.635997] (-) TimerEvent: {}
+[4.736684] (-) TimerEvent: {}
+[4.837243] (-) TimerEvent: {}
+[4.938087] (-) TimerEvent: {}
+[5.038953] (-) TimerEvent: {}
+[5.139714] (-) TimerEvent: {}
+[5.240260] (-) TimerEvent: {}
+[5.341346] (-) TimerEvent: {}
+[5.441796] (-) TimerEvent: {}
+[5.542384] (-) TimerEvent: {}
+[5.642972] (-) TimerEvent: {}
+[5.743503] (-) TimerEvent: {}
+[5.843847] (-) TimerEvent: {}
+[5.944159] (-) TimerEvent: {}
+[6.044724] (-) TimerEvent: {}
+[6.145136] (-) TimerEvent: {}
+[6.245409] (-) TimerEvent: {}
+[6.345743] (-) TimerEvent: {}
+[6.446194] (-) TimerEvent: {}
+[6.546532] (-) TimerEvent: {}
+[6.647008] (-) TimerEvent: {}
+[6.747374] (-) TimerEvent: {}
+[6.847803] (-) TimerEvent: {}
+[6.948305] (-) TimerEvent: {}
+[7.048603] (-) TimerEvent: {}
+[7.148865] (-) TimerEvent: {}
+[7.249136] (-) TimerEvent: {}
+[7.349394] (-) TimerEvent: {}
+[7.449657] (-) TimerEvent: {}
+[7.549915] (-) TimerEvent: {}
+[7.650189] (-) TimerEvent: {}
+[7.750528] (-) TimerEvent: {}
+[7.851050] (-) TimerEvent: {}
+[7.951376] (-) TimerEvent: {}
+[8.051638] (-) TimerEvent: {}
+[8.151900] (-) TimerEvent: {}
+[8.252189] (-) TimerEvent: {}
+[8.352485] (-) TimerEvent: {}
+[8.452731] (-) TimerEvent: {}
+[8.553002] (-) TimerEvent: {}
+[8.653440] (-) TimerEvent: {}
+[8.754551] (-) TimerEvent: {}
+[8.855611] (-) TimerEvent: {}
+[8.869191] (status_sub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable status_ui\x1b[0m\n'}
+[8.956090] (-) TimerEvent: {}
+[9.057259] (-) TimerEvent: {}
+[9.158613] (-) TimerEvent: {}
+[9.259894] (-) TimerEvent: {}
+[9.360446] (-) TimerEvent: {}
+[9.461677] (-) TimerEvent: {}
+[9.562759] (-) TimerEvent: {}
+[9.664418] (-) TimerEvent: {}
+[9.765978] (-) TimerEvent: {}
+[9.867213] (-) TimerEvent: {}
+[9.968772] (-) TimerEvent: {}
+[10.069809] (-) TimerEvent: {}
+[10.171492] (-) TimerEvent: {}
+[10.273424] (-) TimerEvent: {}
+[10.374485] (-) TimerEvent: {}
+[10.475127] (-) TimerEvent: {}
+[10.576135] (-) TimerEvent: {}
+[10.676953] (-) TimerEvent: {}
+[10.778516] (-) TimerEvent: {}
+[10.879608] (-) TimerEvent: {}
+[10.980968] (-) TimerEvent: {}
+[11.082143] (-) TimerEvent: {}
+[11.183522] (-) TimerEvent: {}
+[11.283945] (-) TimerEvent: {}
+[11.384325] (-) TimerEvent: {}
+[11.484624] (-) TimerEvent: {}
+[11.546853] (status_sub) StdoutLine: {'line': b'[100%] Built target status_ui\n'}
+[11.556974] (status_sub) CommandEnded: {'returncode': 0}
+[11.557482] (status_sub) JobProgress: {'identifier': 'status_sub', 'progress': 'install'}
+[11.558620] (status_sub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/u20/u20/ros2_topic_ws/build/status_sub'], 'cwd': '/home/u20/u20/ros2_topic_ws/build/status_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/u20/u20/ros2_topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('BUNDLED_DEBUGPY_PATH', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fe967c5_f185_4d0f_91a4_04c84b371c46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/u20/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-348290291761ae58.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ca619bfd0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/u20/ros2_topic_ws/build/status_sub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces/lib/python3.8/site-packages:/home/u20/u20/ros2_topic_ws/install/pc_status/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/u20/ros2_topic_ws/install/communication_interfaces:/home/u20/u20/ros2_topic_ws/install/status_sub:/home/u20/u20/ros2_topic_ws/install/pc_status:/opt/ros/foxy')]), 'shell': False}
+[11.566161] (status_sub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.566453] (status_sub) StdoutLine: {'line': b'-- Installing: /home/u20/u20/ros2_topic_ws/install/status_sub/lib/status_sub/status_ui\n'}
+[11.568227] (status_sub) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/u20/ros2_topic_ws/install/status_sub/lib/status_sub/status_ui" to ""\n'}
+[11.568434] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/package_run_dependencies/status_sub\n'}
+[11.568887] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/parent_prefix_path/status_sub\n'}
+[11.568999] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/ament_prefix_path.sh\n'}
+[11.569065] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/ament_prefix_path.dsv\n'}
+[11.569144] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/path.sh\n'}
+[11.569233] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/environment/path.dsv\n'}
+[11.569290] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.bash\n'}
+[11.569345] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.sh\n'}
+[11.569400] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.zsh\n'}
+[11.569455] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/local_setup.dsv\n'}
+[11.569510] (status_sub) StdoutLine: {'line': b'-- Installing: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/package.dsv\n'}
+[11.569564] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/ament_index/resource_index/packages/status_sub\n'}
+[11.569618] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/cmake/status_subConfig.cmake\n'}
+[11.569672] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/cmake/status_subConfig-version.cmake\n'}
+[11.569725] (status_sub) StdoutLine: {'line': b'-- Up-to-date: /home/u20/u20/ros2_topic_ws/install/status_sub/share/status_sub/package.xml\n'}
+[11.570734] (status_sub) CommandEnded: {'returncode': 0}
+[11.581448] (status_sub) JobEnded: {'identifier': 'status_sub', 'rc': 0}
+[11.582061] (-) EventReactorShutdown: {}

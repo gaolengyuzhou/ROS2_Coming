@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target status_ui[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/status_ui.dir/src/status_ui.cpp.o[0m
+[01m[K/home/u20/u20/ros2_topic_ws/src/status_sub/src/status_ui.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kstatus_interfaces/msg/system_status.hpp: 没有那个文件或目录
+    5 | #include [01;31m[K<status_interfaces/msg/system_status.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/status_ui.dir/build.make:63：CMakeFiles/status_ui.dir/src/status_ui.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/status_ui.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
