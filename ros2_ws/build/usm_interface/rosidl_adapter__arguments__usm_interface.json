@@ -1,0 +1,10 @@
+{
+  "package_name": "usm_interface",
+  "non_idl_tuples": [
+    "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface:msg/AllCabinsMsg.msg",
+    "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface:msg/JointMsg.msg",
+    "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface:msg/ErrorMsg.msg",
+    "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface:msg/LedMsg.msg",
+    "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface:msg/LocalMsg.msg"
+  ]
+}

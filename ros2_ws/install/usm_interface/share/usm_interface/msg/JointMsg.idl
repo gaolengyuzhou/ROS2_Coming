@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from usm_interface/msg/JointMsg.msg
+// generated code does not contain a copyright notice
+
+#include "communication_interfaces/msg/ThrusterMsg.idl"
+
+module usm_interface {
+  module msg {
+    struct JointMsg {
+      sequence<communication_interfaces::msg::ThrusterMsg> all_controller_msg;
+    };
+  };
+};

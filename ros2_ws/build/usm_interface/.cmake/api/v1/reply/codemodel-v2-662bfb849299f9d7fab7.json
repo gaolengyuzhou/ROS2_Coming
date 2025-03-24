@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "usm_interface__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface/usm_interface__py",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "usm_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d70c7add158a2fe7b6d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface-5b811193a36ff2a93c9a.json",
+					"name" : "usm_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__cpp-0b2d4b6b863270a2b38f.json",
+					"name" : "usm_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "usm_interface__py::@98e8fd54445cc1a1d80e",
+					"jsonFile" : "target-usm_interface__py-7cedcaf8409673bfa0c2.json",
+					"name" : "usm_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__python-88cc6666d71e07eba2bc.json",
+					"name" : "usm_interface__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_generator_c-1118fac65d89c3be778a.json",
+					"name" : "usm_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_c-c00aa7eac1e57b87e9f3.json",
+					"name" : "usm_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_c__pyext-78495a3ce197789aee4d.json",
+					"name" : "usm_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_cpp-f543c39a145ebf20ad6f.json",
+					"name" : "usm_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_fastrtps_c-c47c5b281b8c8efbb0f8.json",
+					"name" : "usm_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_fastrtps_c__pyext-bb00fe4c417787787443.json",
+					"name" : "usm_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_fastrtps_cpp-faa493f734d76dc7f6d2.json",
+					"name" : "usm_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_introspection_c-a1a92e9b8022039b0ad6.json",
+					"name" : "usm_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_introspection_c__pyext-743dbc621186ec614ca5.json",
+					"name" : "usm_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface__rosidl_typesupport_introspection_cpp-a853c6d18d1f890fd852.json",
+					"name" : "usm_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usm_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usm_interface_uninstall-eb5f903acc00d9c707cb.json",
+					"name" : "usm_interface_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface",
+		"source" : "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

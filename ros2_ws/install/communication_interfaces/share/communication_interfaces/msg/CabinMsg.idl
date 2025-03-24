@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from communication_interfaces/msg/CabinMsg.msg
+// generated code does not contain a copyright notice
+
+
+module communication_interfaces {
+  module msg {
+    struct CabinMsg {
+      int32 cabin_id;
+
+      double temperature;
+
+      double humidity;
+
+      double pressure;
+
+      string name;
+    };
+  };
+};

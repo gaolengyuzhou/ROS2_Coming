@@ -1,0 +1,4 @@
+[console_scripts]
+all_cabins_publisher = usm_node.cabins_publisher:main
+all_cabins_subscriber = usm_node.cabins_subscriber:main
+

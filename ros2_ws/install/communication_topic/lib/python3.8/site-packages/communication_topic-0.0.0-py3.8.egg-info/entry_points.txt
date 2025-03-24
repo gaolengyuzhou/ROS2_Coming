@@ -1,6 +1,0 @@
-[console_scripts]
-ahrs_data_client = communication_topic.AHRS_cli:main
-ahrs_data_server = communication_topic.AHRS_ser:main
-ahrs_publisher_node = communication_topic.AHRS_pub:main
-ahrs_subscriber_node = communication_topic.AHRS_sub:main
-

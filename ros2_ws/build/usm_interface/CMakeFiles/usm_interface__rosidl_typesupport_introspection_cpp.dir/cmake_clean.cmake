@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/all_cabins_msg__type_support.cpp.o"
+  "CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/error_msg__type_support.cpp.o"
+  "CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/joint_msg__type_support.cpp.o"
+  "CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/led_msg__type_support.cpp.o"
+  "CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/local_msg__type_support.cpp.o"
+  "libusm_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libusm_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/all_cabins_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/all_cabins_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/error_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/error_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/joint_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/joint_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/led_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/led_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/local_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/local_msg__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

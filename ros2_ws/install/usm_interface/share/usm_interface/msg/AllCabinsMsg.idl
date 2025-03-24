@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from usm_interface/msg/AllCabinsMsg.msg
+// generated code does not contain a copyright notice
+
+#include "communication_interfaces/msg/CabinMsg.idl"
+
+module usm_interface {
+  module msg {
+    struct AllCabinsMsg {
+      sequence<communication_interfaces::msg::CabinMsg> cabin_msgs;
+    };
+  };
+};

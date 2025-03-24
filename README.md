@@ -160,3 +160,62 @@ AHRS_ser.py
 self.srv = self.create_service(GetAHRSData, 'get_ahrs_data', self.get_ahrs_data_callback)
 ```
 ![](./请求一次发一次.png)
+
+# 控制箱与🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌水下机器人
+## 新建communication_interfaces功能包
+```
+ros2 pkg create communication_interfaces --build-type ament_cmake --dependencies std_msgs sensor_msgs builtin_interfaces rosidl_default_generators
+```
+### 构建CabinMsg.msg和ThrusterMsg.msg
+```bash
+~/ros2_ws/src/communication_interfaces$ tree
+.
+├── CMakeLists.txt
+├── include
+│   └── communication_interfaces
+├── msg
+│   ├── CabinMsg.msg
+│   └── ThrusterMsg.msg
+├── package.xml
+└── src
+```
+### 🔔🔔🔔package.xml与CmakeList.txt添加配置
+然后对这个功能包编译
+```
+colcon build --packages-select communication_interfaces
+```
+
+### 然后继续编写[在 ROS 里，一个包不能依赖它自身]
+> JointMsg.msg
+> AllCabinsMsg.msg
+> LocalMsg.msg
+> LedMsg.msg
+> ErrorMsg.msg
+> PoseMsg.msg
+## 新建usm_interface功能包
+```
+ros2 pkg create usm_interface --build-type ament_cmake --dependencies std_msgs sensor_msgs builtin_interfaces rosidl_default_generators communication_interfaces
+```
+### 配置🔔🔔🔔
+```
+set(msg_files
+  "msg/AllCabinsMsg.msg"
+  "msg/JointMsg.msg"
+  "msg/ErrorMsg.msg"
+  "msg/LedMsg.msg"
+  "msg/LocalMsg.msg"
+)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  DEPENDENCIES communication_interfaces builtin_interfaces std_msgs
+)
+```
+### 编译usm_interface
+```
+colcon build --packages-select usm_interface
+```
+![](./usm消息类型.png)
+# 创建usm包
+```
+ros2 pkg create usm_node --build-type ament_python --dependencies rclpy std_msgs sensor_msgs communication_interfaces usm_interface
+```

@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (-) JobUnselected: {'identifier': 'communication_interfaces'}
+[0.000226] (-) JobUnselected: {'identifier': 'communication_interfaces_topic'}
+[0.000282] (-) JobUnselected: {'identifier': 'communication_topic'}
+[0.000309] (-) JobUnselected: {'identifier': 'usm_node'}
+[0.000384] (usm_interface) JobQueued: {'identifier': 'usm_interface', 'dependencies': OrderedDict([('communication_interfaces', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces')])}
+[0.000431] (usm_interface) JobStarted: {'identifier': 'usm_interface'}
+[0.009617] (usm_interface) JobProgress: {'identifier': 'usm_interface', 'progress': 'cmake'}
+[0.010558] (usm_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/src/usm_interface', '-DCMAKE_INSTALL_PREFIX=/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface'], 'cwd': '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c118d2bf_7000_4de1_b22b_22aa228f0fae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fdebba3739.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.065322] (usm_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099388] (-) TimerEvent: {}
+[0.117802] (usm_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.122682] (usm_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.187254] (usm_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.188063] (usm_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199493] (-) TimerEvent: {}
+[0.255816] (usm_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.266487] (usm_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.266801] (usm_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.269035] (usm_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299591] (-) TimerEvent: {}
+[0.342911] (usm_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.344001] (usm_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399800] (-) TimerEvent: {}
+[0.435293] (usm_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.448063] (usm_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.448780] (usm_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.452148] (usm_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.483785] (usm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.483996] (usm_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499881] (-) TimerEvent: {}
+[0.600154] (-) TimerEvent: {}
+[0.677014] (usm_interface) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.699825] (usm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700237] (-) TimerEvent: {}
+[0.705203] (usm_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.783616] (usm_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.800348] (-) TimerEvent: {}
+[0.808357] (usm_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.894381] (usm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900414] (-) TimerEvent: {}
+[0.966842] (usm_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.000518] (-) TimerEvent: {}
+[1.100732] (-) TimerEvent: {}
+[1.151745] (usm_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.167266] (usm_interface) StdoutLine: {'line': b'-- Found communication_interfaces: 0.0.0 (/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/share/communication_interfaces/cmake)\n'}
+[1.200829] (-) TimerEvent: {}
+[1.243452] (usm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.300947] (-) TimerEvent: {}
+[1.401247] (-) TimerEvent: {}
+[1.420972] (usm_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.501374] (-) TimerEvent: {}
+[1.586808] (usm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601497] (-) TimerEvent: {}
+[1.648961] (usm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.670642] (usm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.671725] (usm_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.694027] (usm_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.694190] (usm_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.694258] (usm_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.694322] (usm_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.701568] (-) TimerEvent: {}
+[1.712378] (usm_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.772202] (usm_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.788974] (usm_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.790466] (usm_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.791363] (usm_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.801656] (-) TimerEvent: {}
+[1.804451] (usm_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.865614] (usm_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.882403] (usm_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface\n'}
+[1.889373] (usm_interface) CommandEnded: {'returncode': 0}
+[1.890186] (usm_interface) JobProgress: {'identifier': 'usm_interface', 'progress': 'build'}
+[1.890840] (usm_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface', '--', '-j12', '-l12'], 'cwd': '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c118d2bf_7000_4de1_b22b_22aa228f0fae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fdebba3739.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces:/opt/ros/foxy')]), 'shell': False}
+[1.901798] (-) TimerEvent: {}
+[1.934320] (usm_interface) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.934770] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__cpp\x1b[0m\n'}
+[1.944484] (usm_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.001858] (-) TimerEvent: {}
+[2.102067] (-) TimerEvent: {}
+[2.202274] (-) TimerEvent: {}
+[2.302535] (-) TimerEvent: {}
+[2.303190] (usm_interface) StdoutLine: {'line': b'[  3%] Built target usm_interface__cpp\n'}
+[2.306376] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_generator_c\x1b[0m\n'}
+[2.315192] (usm_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.315424] (usm_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.315548] (usm_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.331555] (usm_interface) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_generator_c.dir/rosidl_generator_c/usm_interface/msg/detail/joint_msg__functions.c.o\x1b[0m\n'}
+[2.331821] (usm_interface) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_generator_c.dir/rosidl_generator_c/usm_interface/msg/detail/all_cabins_msg__functions.c.o\x1b[0m\n'}
+[2.334368] (usm_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_generator_c.dir/rosidl_generator_c/usm_interface/msg/detail/error_msg__functions.c.o\x1b[0m\n'}
+[2.334628] (usm_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_generator_c.dir/rosidl_generator_c/usm_interface/msg/detail/led_msg__functions.c.o\x1b[0m\n'}
+[2.334796] (usm_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_generator_c.dir/rosidl_generator_c/usm_interface/msg/detail/local_msg__functions.c.o\x1b[0m\n'}
+[2.398299] (usm_interface) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libusm_interface__rosidl_generator_c.so\x1b[0m\n'}
+[2.402618] (-) TimerEvent: {}
+[2.441015] (usm_interface) StdoutLine: {'line': b'[ 17%] Built target usm_interface__rosidl_generator_c\n'}
+[2.451976] (usm_interface) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.452193] (usm_interface) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.502709] (-) TimerEvent: {}
+[2.579353] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.602706] (usm_interface) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usm_interface/msg/led_msg__type_support.cpp.o\x1b[0m\n'}
+[2.602901] (-) TimerEvent: {}
+[2.604027] (usm_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usm_interface/msg/joint_msg__type_support.cpp.o\x1b[0m\n'}
+[2.604198] (usm_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usm_interface/msg/all_cabins_msg__type_support.cpp.o\x1b[0m\n'}
+[2.604357] (usm_interface) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usm_interface/msg/local_msg__type_support.cpp.o\x1b[0m\n'}
+[2.604753] (usm_interface) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usm_interface/msg/error_msg__type_support.cpp.o\x1b[0m\n'}
+[2.689620] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.703013] (-) TimerEvent: {}
+[2.709343] (usm_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/joint_msg__type_support.cpp.o\x1b[0m\n'}
+[2.710573] (usm_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/all_cabins_msg__type_support.cpp.o\x1b[0m\n'}
+[2.711410] (usm_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/error_msg__type_support.cpp.o\x1b[0m\n'}
+[2.749425] (usm_interface) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/led_msg__type_support.cpp.o\x1b[0m\n'}
+[2.803107] (-) TimerEvent: {}
+[2.903431] (-) TimerEvent: {}
+[2.986451] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_c\x1b[0m\n'}
+[3.003546] (-) TimerEvent: {}
+[3.050621] (usm_interface) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/usm_interface/msg/all_cabins_msg__type_support.cpp.o\x1b[0m\n'}
+[3.074687] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.083645] (usm_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usm_interface/msg/detail/local_msg__type_support.cpp.o\x1b[0m\n'}
+[3.098155] (usm_interface) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/usm_interface/msg/joint_msg__type_support.cpp.o\x1b[0m\n'}
+[3.101368] (usm_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/usm_interface/msg/error_msg__type_support.cpp.o\x1b[0m\n'}
+[3.103651] (-) TimerEvent: {}
+[3.105389] (usm_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/usm_interface/msg/led_msg__type_support.cpp.o\x1b[0m\n'}
+[3.108135] (usm_interface) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/usm_interface/msg/local_msg__type_support.cpp.o\x1b[0m\n'}
+[3.139852] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.158863] (usm_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usm_interface/msg/detail/dds_fastrtps/all_cabins_msg__type_support.cpp.o\x1b[0m\n'}
+[3.159247] (usm_interface) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usm_interface/msg/detail/dds_fastrtps/joint_msg__type_support.cpp.o\x1b[0m\n'}
+[3.162260] (usm_interface) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usm_interface/msg/detail/dds_fastrtps/error_msg__type_support.cpp.o\x1b[0m\n'}
+[3.170690] (usm_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usm_interface/msg/detail/all_cabins_msg__type_support.c.o\x1b[0m\n'}
+[3.177701] (usm_interface) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usm_interface/msg/detail/dds_fastrtps/led_msg__type_support.cpp.o\x1b[0m\n'}
+[3.184900] (usm_interface) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libusm_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.186791] (usm_interface) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libusm_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.203797] (-) TimerEvent: {}
+[3.248068] (usm_interface) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usm_interface/msg/detail/joint_msg__type_support.c.o\x1b[0m\n'}
+[3.262262] (usm_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usm_interface/msg/detail/error_msg__type_support.c.o\x1b[0m\n'}
+[3.271501] (usm_interface) StdoutLine: {'line': b'[ 58%] Built target usm_interface__rosidl_typesupport_c\n'}
+[3.285995] (usm_interface) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usm_interface/msg/detail/led_msg__type_support.c.o\x1b[0m\n'}
+[3.303893] (-) TimerEvent: {}
+[3.311280] (usm_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usm_interface/msg/detail/local_msg__type_support.c.o\x1b[0m\n'}
+[3.321008] (usm_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usm_interface/msg/detail/dds_fastrtps/local_msg__type_support.cpp.o\x1b[0m\n'}
+[3.324026] (usm_interface) StdoutLine: {'line': b'[ 63%] Built target usm_interface__rosidl_typesupport_cpp\n'}
+[3.361749] (usm_interface) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libusm_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.394283] (usm_interface) StdoutLine: {'line': b'[ 65%] Built target usm_interface__rosidl_typesupport_introspection_c\n'}
+[3.404039] (-) TimerEvent: {}
+[3.504368] (-) TimerEvent: {}
+[3.553758] (usm_interface) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libusm_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.604478] (-) TimerEvent: {}
+[3.657440] (usm_interface) StdoutLine: {'line': b'[ 66%] Built target usm_interface__rosidl_typesupport_introspection_cpp\n'}
+[3.704591] (-) TimerEvent: {}
+[3.768888] (usm_interface) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libusm_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.804654] (-) TimerEvent: {}
+[3.865712] (usm_interface) StdoutLine: {'line': b'[ 68%] Built target usm_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[3.876031] (usm_interface) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.904768] (-) TimerEvent: {}
+[4.005005] (-) TimerEvent: {}
+[4.105253] (-) TimerEvent: {}
+[4.169648] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.187774] (usm_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usm_interface/msg/detail/joint_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.188084] (usm_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usm_interface/msg/detail/error_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.188236] (usm_interface) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usm_interface/msg/detail/led_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.188369] (usm_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usm_interface/msg/detail/all_cabins_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.190432] (usm_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usm_interface/msg/detail/local_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.205358] (-) TimerEvent: {}
+[4.305657] (-) TimerEvent: {}
+[4.405979] (-) TimerEvent: {}
+[4.506282] (-) TimerEvent: {}
+[4.542654] (usm_interface) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libusm_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.606404] (-) TimerEvent: {}
+[4.619723] (usm_interface) StdoutLine: {'line': b'[ 79%] Built target usm_interface__rosidl_typesupport_fastrtps_c\n'}
+[4.631579] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface\x1b[0m\n'}
+[4.642312] (usm_interface) StdoutLine: {'line': b'[ 79%] Built target usm_interface\n'}
+[4.651375] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__py\x1b[0m\n'}
+[4.660675] (usm_interface) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.706504] (-) TimerEvent: {}
+[4.806759] (-) TimerEvent: {}
+[4.907007] (-) TimerEvent: {}
+[5.007253] (-) TimerEvent: {}
+[5.107482] (-) TimerEvent: {}
+[5.207707] (-) TimerEvent: {}
+[5.307935] (-) TimerEvent: {}
+[5.408238] (-) TimerEvent: {}
+[5.433367] (usm_interface) StdoutLine: {'line': b'[ 80%] Built target usm_interface__py\n'}
+[5.443925] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__python\x1b[0m\n'}
+[5.470200] (usm_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/usm_interface__python.dir/rosidl_generator_py/usm_interface/msg/_joint_msg_s.c.o\x1b[0m\n'}
+[5.470508] (usm_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/usm_interface__python.dir/rosidl_generator_py/usm_interface/msg/_error_msg_s.c.o\x1b[0m\n'}
+[5.470664] (usm_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/usm_interface__python.dir/rosidl_generator_py/usm_interface/msg/_all_cabins_msg_s.c.o\x1b[0m\n'}
+[5.470945] (usm_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/usm_interface__python.dir/rosidl_generator_py/usm_interface/msg/_led_msg_s.c.o\x1b[0m\n'}
+[5.472911] (usm_interface) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/usm_interface__python.dir/rosidl_generator_py/usm_interface/msg/_local_msg_s.c.o\x1b[0m\n'}
+[5.508334] (-) TimerEvent: {}
+[5.576541] (usm_interface) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/usm_interface/libusm_interface__python.so\x1b[0m\n'}
+[5.608451] (-) TimerEvent: {}
+[5.619774] (usm_interface) StdoutLine: {'line': b'[ 90%] Built target usm_interface__python\n'}
+[5.632947] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.633113] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.633179] (usm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usm_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.651948] (usm_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/usm_interface/_usm_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.652225] (usm_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/usm_interface/_usm_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.653525] (usm_interface) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/usm_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/usm_interface/_usm_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.708595] (-) TimerEvent: {}
+[5.742717] (usm_interface) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/usm_interface/usm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.742946] (usm_interface) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/usm_interface/usm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.746145] (usm_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/usm_interface/usm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.780269] (usm_interface) StdoutLine: {'line': b'[100%] Built target usm_interface__rosidl_typesupport_c__pyext\n'}
+[5.780484] (usm_interface) StdoutLine: {'line': b'[100%] Built target usm_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[5.808707] (-) TimerEvent: {}
+[5.810404] (usm_interface) StdoutLine: {'line': b'[100%] Built target usm_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.825756] (usm_interface) CommandEnded: {'returncode': 0}
+[5.826810] (usm_interface) JobProgress: {'identifier': 'usm_interface', 'progress': 'install'}
+[5.838234] (usm_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface'], 'cwd': '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'u20'), ('SSH_AGENT_PID', '1631'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/u20'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1449'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'u20'), ('JOURNAL_STREAM', '8:38739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'u20'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/u20:@/tmp/.ICE-unix/1683,unix/u20:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '23a45d4c5eea4305b1081c2b5ea76ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c118d2bf_7000_4de1_b22b_22aa228f0fae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fdebba3739.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/build/usm_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ed8bbef12bce147eddec98367e10024'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/communication_interfaces:/opt/ros/foxy')]), 'shell': False}
+[5.848131] (usm_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.848458] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/ament_index/resource_index/rosidl_interfaces/usm_interface\n'}
+[5.848615] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface\n'}
+[5.848759] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg\n'}
+[5.848861] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/error_msg.h\n'}
+[5.849003] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/local_msg.h\n'}
+[5.849151] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/led_msg.h\n'}
+[5.849280] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/all_cabins_msg.h\n'}
+[5.849427] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail\n'}
+[5.849527] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__functions.c\n'}
+[5.849671] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__struct.h\n'}
+[5.849770] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__functions.c\n'}
+[5.849914] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__functions.h\n'}
+[5.850037] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__type_support.h\n'}
+[5.850136] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__functions.h\n'}
+[5.850280] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__functions.c\n'}
+[5.850399] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__type_support.h\n'}
+[5.850544] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__struct.h\n'}
+[5.850664] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__functions.h\n'}
+[5.850761] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__type_support.h\n'}
+[5.850908] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__type_support.h\n'}
+[5.851030] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__struct.h\n'}
+[5.851154] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__functions.h\n'}
+[5.851254] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__functions.c\n'}
+[5.851353] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__struct.h\n'}
+[5.851475] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__struct.h\n'}
+[5.851603] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__functions.h\n'}
+[5.851703] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__type_support.h\n'}
+[5.851838] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__functions.c\n'}
+[5.851938] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/joint_msg.h\n'}
+[5.852071] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.852168] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/library_path.sh\n'}
+[5.852288] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/library_path.dsv\n'}
+[5.852386] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_generator_c.so\n'}
+[5.852686] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_generator_c.so" to ""\n'}
+[5.852829] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface\n'}
+[5.852948] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg\n'}
+[5.853083] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.853188] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail\n'}
+[5.853325] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.853424] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.853550] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.853671] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.853773] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.853895] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[5.854178] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.854314] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface\n'}
+[5.854439] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg\n'}
+[5.854582] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail\n'}
+[5.854685] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.854808] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.854978] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/dds_fastrtps\n'}
+[5.855082] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.855205] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.855301] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.855422] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.855520] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.855856] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.855988] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface\n'}
+[5.856127] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg\n'}
+[5.856225] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.856362] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail\n'}
+[5.856513] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.856636] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__type_support.c\n'}
+[5.856758] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.856858] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__type_support.c\n'}
+[5.856980] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__type_support.c\n'}
+[5.857135] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.857235] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__type_support.c\n'}
+[5.857333] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.857471] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.857570] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__type_support.c\n'}
+[5.857669] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_introspection_c.so\n'}
+[5.857928] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.858080] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_c.so\n'}
+[5.858487] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_c.so" to ""\n'}
+[5.858621] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface\n'}
+[5.858776] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg\n'}
+[5.858878] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/local_msg.hpp\n'}
+[5.859012] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/joint_msg.hpp\n'}
+[5.859150] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/led_msg.hpp\n'}
+[5.859295] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail\n'}
+[5.859413] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__type_support.hpp\n'}
+[5.859510] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__type_support.hpp\n'}
+[5.859612] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__type_support.hpp\n'}
+[5.859714] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__builder.hpp\n'}
+[5.859849] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__traits.hpp\n'}
+[5.860010] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__type_support.hpp\n'}
+[5.860133] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__struct.hpp\n'}
+[5.860232] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__builder.hpp\n'}
+[5.860334] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__traits.hpp\n'}
+[5.860434] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__struct.hpp\n'}
+[5.860587] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__builder.hpp\n'}
+[5.860687] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__type_support.hpp\n'}
+[5.860789] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__struct.hpp\n'}
+[5.860914] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__struct.hpp\n'}
+[5.861058] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__struct.hpp\n'}
+[5.861160] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__builder.hpp\n'}
+[5.861290] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__traits.hpp\n'}
+[5.861434] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__traits.hpp\n'}
+[5.861536] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__builder.hpp\n'}
+[5.861671] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__traits.hpp\n'}
+[5.861792] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.861916] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/all_cabins_msg.hpp\n'}
+[5.862017] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/error_msg.hpp\n'}
+[5.862181] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface\n'}
+[5.862278] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg\n'}
+[5.862380] (usm_interface) StdoutLine: {'line': b'-- Up-to-date: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail\n'}
+[5.862480] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.862646] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.862745] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/error_msg__type_support.cpp\n'}
+[5.862846] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/all_cabins_msg__type_support.cpp\n'}
+[5.862995] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__type_support.cpp\n'}
+[5.863091] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.863190] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/led_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.863316] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.863412] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/local_msg__type_support.cpp\n'}
+[5.863511] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/include/usm_interface/msg/detail/joint_msg__type_support.cpp\n'}
+[5.863608] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[5.863756] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.863902] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_cpp.so\n'}
+[5.864354] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[5.864485] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/pythonpath.sh\n'}
+[5.864620] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/pythonpath.dsv\n'}
+[5.864837] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/__init__.py\n'}
+[5.889805] (usm_interface) StdoutLine: {'line': b"Compiling '/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/__init__.py'...\n"}
+[5.892788] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg\n'}
+[5.892968] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_all_cabins_msg.py\n'}
+[5.893114] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_joint_msg_s.c\n'}
+[5.893267] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_led_msg.py\n'}
+[5.893395] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_local_msg_s.c\n'}
+[5.893497] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_local_msg.py\n'}
+[5.893631] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_all_cabins_msg_s.c\n'}
+[5.893761] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_led_msg_s.c\n'}
+[5.893861] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_error_msg_s.c\n'}
+[5.893992] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/__init__.py\n'}
+[5.894128] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_error_msg.py\n'}
+[5.894223] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/msg/_joint_msg.py\n'}
+[5.894357] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/usm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.894934] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/usm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.895166] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/usm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.895777] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/usm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.896020] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/usm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.896613] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/python3.8/site-packages/usm_interface/usm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.896744] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__python.so\n'}
+[5.897227] (usm_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/lib/libusm_interface__python.so" to ""\n'}
+[5.897359] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/AllCabinsMsg.idl\n'}
+[5.897511] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/JointMsg.idl\n'}
+[5.897656] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/ErrorMsg.idl\n'}
+[5.897811] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/LedMsg.idl\n'}
+[5.897957] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/LocalMsg.idl\n'}
+[5.898104] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/AllCabinsMsg.msg\n'}
+[5.898252] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/JointMsg.msg\n'}
+[5.898402] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/ErrorMsg.msg\n'}
+[5.898538] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/LedMsg.msg\n'}
+[5.898672] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/msg/LocalMsg.msg\n'}
+[5.898871] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/ament_index/resource_index/package_run_dependencies/usm_interface\n'}
+[5.899068] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/ament_index/resource_index/parent_prefix_path/usm_interface\n'}
+[5.899219] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/ament_prefix_path.sh\n'}
+[5.899413] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/ament_prefix_path.dsv\n'}
+[5.899569] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/path.sh\n'}
+[5.899702] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/environment/path.dsv\n'}
+[5.899816] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/local_setup.bash\n'}
+[5.899932] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/local_setup.sh\n'}
+[5.900126] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/local_setup.zsh\n'}
+[5.900267] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/local_setup.dsv\n'}
+[5.900414] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/package.dsv\n'}
+[5.900611] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/ament_index/resource_index/packages/usm_interface\n'}
+[5.900840] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_generator_cExport.cmake\n'}
+[5.901000] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.901180] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.901324] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.901498] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_cExport.cmake\n'}
+[5.901663] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.901843] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_generator_cppExport.cmake\n'}
+[5.902027] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.902185] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.902387] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_cppExport.cmake\n'}
+[5.902545] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.902686] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[5.902840] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.902995] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.903153] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.903308] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.903460] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.903610] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.903763] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interfaceConfig.cmake\n'}
+[5.903893] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/cmake/usm_interfaceConfig-version.cmake\n'}
+[5.904067] (usm_interface) StdoutLine: {'line': b'-- Installing: /home/u20/rov-ros-2/ROS2_Coming/ros2_ws/install/usm_interface/share/usm_interface/package.xml\n'}
+[5.906264] (usm_interface) CommandEnded: {'returncode': 0}
+[5.909029] (-) TimerEvent: {}
+[5.927256] (usm_interface) JobEnded: {'identifier': 'usm_interface', 'rc': 0}
+[5.928026] (-) EventReactorShutdown: {}

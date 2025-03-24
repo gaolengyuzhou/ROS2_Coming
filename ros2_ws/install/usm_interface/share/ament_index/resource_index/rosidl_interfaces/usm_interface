@@ -1,0 +1,10 @@
+msg/AllCabinsMsg.idl
+msg/AllCabinsMsg.msg
+msg/ErrorMsg.idl
+msg/ErrorMsg.msg
+msg/JointMsg.idl
+msg/JointMsg.msg
+msg/LedMsg.idl
+msg/LedMsg.msg
+msg/LocalMsg.idl
+msg/LocalMsg.msg

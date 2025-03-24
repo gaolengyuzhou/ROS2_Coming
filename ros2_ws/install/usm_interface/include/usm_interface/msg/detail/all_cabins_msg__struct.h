@@ -1,0 +1,44 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from usm_interface:msg/AllCabinsMsg.idl
+// generated code does not contain a copyright notice
+
+#ifndef USM_INTERFACE__MSG__DETAIL__ALL_CABINS_MSG__STRUCT_H_
+#define USM_INTERFACE__MSG__DETAIL__ALL_CABINS_MSG__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'cabin_msgs'
+#include "communication_interfaces/msg/detail/cabin_msg__struct.h"
+
+// Struct defined in msg/AllCabinsMsg in the package usm_interface.
+typedef struct usm_interface__msg__AllCabinsMsg
+{
+  communication_interfaces__msg__CabinMsg__Sequence cabin_msgs;
+} usm_interface__msg__AllCabinsMsg;
+
+// Struct for a sequence of usm_interface__msg__AllCabinsMsg.
+typedef struct usm_interface__msg__AllCabinsMsg__Sequence
+{
+  usm_interface__msg__AllCabinsMsg * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} usm_interface__msg__AllCabinsMsg__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // USM_INTERFACE__MSG__DETAIL__ALL_CABINS_MSG__STRUCT_H_

@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/cabin_msg__type_support.cpp.o"
+  "CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/thruster_msg__type_support.cpp.o"
+  "libcommunication_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/cabin_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/cabin_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/thruster_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/thruster_msg__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
