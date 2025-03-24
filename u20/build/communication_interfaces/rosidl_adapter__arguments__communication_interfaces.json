@@ -1,6 +1,0 @@
-{
-  "package_name": "communication_interfaces",
-  "non_idl_tuples": [
-    "/home/u20/u20/ros2_topic_ws/src/communication_interfaces:msg/SystemStatus.msg"
-  ]
-}
