@@ -28,5 +28,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 sudo apt install ros-humble-nav2-map-server
 
 ros2 run nav2_map_server map_saver_cli -t map -f fishbot_map
-'''
+```
+
 ## 2、fishbot_navigation2导航
+
+
