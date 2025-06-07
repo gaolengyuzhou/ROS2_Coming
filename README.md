@@ -6,7 +6,7 @@
 
 # 03carto
 
-仿真实验见：https://github.com/gaolengyuzhou/ROS2_Coming.git
+仿真实验见：https://github.com/gaolengyuzhou/ROS2_Coming/tree/ROS_Carto
 
 ## 1、fishbot_cartographer建图
 ## 2、fishbot_navigation2导航
